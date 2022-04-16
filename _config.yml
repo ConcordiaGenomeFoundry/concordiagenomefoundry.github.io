@@ -32,6 +32,7 @@ twitter_username: SynBioCU
 # New fields not in the original config file
 copyright: Concordia Genome Foundry
 title-logo: /assets/images/foundry_logo.jpg
+header-image: /assets/images/output.gif
 
 # Build settings
 # theme: minima
