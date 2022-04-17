@@ -29,6 +29,11 @@ url: "https://concordiagenomefoundry.github.io/" # the base hostname & protocol 
 twitter_username: SynBioCU
 #github_username:  jekyll
 
+header_pages:
+  - portfolio.md
+  - about.md
+
+
 # New fields not in the original config file
 copyright: Concordia Genome Foundry
 title-logo: /assets/images/foundry_logo.jpg

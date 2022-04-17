@@ -1,17 +1,14 @@
-<header>
-
-<!--  <div class="wrapper">-->
-<!--    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">-->
-    {%- if site.header-image -%}
-<!--      <img style="background-size: auto; height: 630px" src="{{ site.header-image | relative_url }}" alt="{{ site.title | escape }}">-->
+{%- if site.header-image -%}
     <div id="example1">
-<!--      <h1 style="color: white">{{ site.title | escape }}</h1>-->
-<!--      <p>The background image is displayed in its original size.</p>-->
+      <h1 style="color: white; "><strong>{{ site.title | escape }}</strong></strong></h1>
+      <p style="color: white">The text is displayed in front of a background image.</p>
+      <button style="border: 2px solid white;
+                     background-color: transparent;
+                     padding: 14px 28px;
+                     font-size: 16px;
+                     color: white;"
+              type="button" class="btn btn-primary">Download</button>
     </div>
-    {%- else -%}
-      {{ site.title | escape }}
-    {%- endif -%}
-<!--    </a>-->
-
-<!--  </div>-->
-</header>
+{%- else -%}
+  {{ site.title | escape }}
+{%- endif -%}
