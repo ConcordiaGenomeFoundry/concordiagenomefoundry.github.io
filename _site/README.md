@@ -1,2 +1,1 @@
-# concordiagenomefoundry.github.io
-Webpage Concordia Foundry
+# Concordia Genome Foundry Webpage

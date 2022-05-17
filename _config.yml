@@ -36,8 +36,9 @@ header_pages:
 
 # New fields not in the original config file
 copyright: Concordia Genome Foundry
-title-logo: /assets/images/foundry_logo.jpg
+title-logo: /assets/images/foundry_logo.svg
 header-image: /assets/images/output.gif
+header-video: /assets/videos/Header_text.mp4
 
 # Build settings
 # theme: minima
