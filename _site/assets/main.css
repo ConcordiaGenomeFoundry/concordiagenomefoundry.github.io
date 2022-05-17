@@ -195,4 +195,4 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
-#example1 { padding: 25px; background: url(/assets/images/output.gif); background-repeat: no-repeat; background-size: cover; background-position: center; height: 450px; object-fit: cover; }
+video.background { background-repeat: no-repeat; background-size: cover; object-fit: cover; max-height: 750px; height: auto; }

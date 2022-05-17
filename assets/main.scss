@@ -6,12 +6,11 @@ $content-width: 100%;
 
 @import "minima";
 
-#example1 {
-  padding: 25px;
-  background: url(/assets/images/output.gif);
+video.background {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 450px;
   object-fit: cover;
+  max-height: 750px;
+  height: auto;
 }
+
