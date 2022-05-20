@@ -30,8 +30,10 @@ twitter_username: SynBioCU
 #github_username:  jekyll
 
 header_pages:
-  - portfolio.md
   - about.md
+  - services.md
+  - equipment.md
+  - contact.md
 
 
 # New fields not in the original config file
