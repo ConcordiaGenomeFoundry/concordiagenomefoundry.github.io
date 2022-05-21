@@ -195,8 +195,49 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
+* { box-sizing: border-box; }
+
+/* Create two equal columns that floats next to each other */
+.row::after { content: ""; clear: both; display: table; }
+
+[class*="col-"] { float: left; padding: 15px; }
+
+.col-1 { width: 8.33%; }
+
+.col-2 { width: 16.66%; }
+
+.col-3 { width: 25%; }
+
+.col-4 { width: 33.33%; }
+
+.col-5 { width: 41.66%; }
+
+.col-6 { width: 50%; }
+
+.col-7 { width: 58.33%; }
+
+.col-8 { width: 66.66%; }
+
+.col-9 { width: 75%; }
+
+.col-10 { width: 83.33%; }
+
+.col-11 { width: 91.66%; }
+
+.col-12 { width: 100%; }
+
 video.background { background-repeat: no-repeat; background-size: cover; object-fit: cover; height: auto; }
+
+#bottom_image { position: relative; padding: 25px; background: url("../assets/images/foundry_mantis.png"); background-repeat: no-repeat; background-size: cover; max-height: 750px; height: auto; width: 100%; }
 
 a { display: inline-block; }
 
 object { pointer-events: none; }
+
+.center_text { text-align: center; padding: 30px; }
+
+table td { background-color: transparent; border: transparent; }
+
+table tr:nth-child(even) { background-color: transparent; border: transparent; }
+
+table { border-collapse: collapse; border-spacing: 0; border: transparent; }
