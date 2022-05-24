@@ -39,7 +39,7 @@ header_pages:
 # New fields not in the original config file
 copyright: Concordia Genome Foundry
 title-logo: /assets/images/foundry_logo.svg
-lab-image: /assets/images/foundry_lab.jpg
+lab-image: /assets/images/foundry_lab.webp
 mantis-image: /assets/images/foundry_mantis.png
 header-video: /assets/videos/Header_text.mp4
 

@@ -47,10 +47,11 @@ video.background {
   padding: 25px;
   background: url("../assets/images/foundry_mantis.png");
   background-repeat: no-repeat;
+  background-position: right;
   background-size: cover;
-  max-height: 750px;
+  //max-height: 550px;
   height: auto;
-  width: 100%;
+  //width: 100%;
 }
 
 
