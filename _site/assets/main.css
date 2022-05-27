@@ -234,7 +234,7 @@ a { display: inline-block; }
 
 object { pointer-events: none; }
 
-.center_text { text-align: center; padding: 30px; }
+.center_text { text-align: center; padding: 30px; font-size: 2vw; }
 
 table td { background-color: transparent; border: transparent; }
 
@@ -271,4 +271,4 @@ and also iPads specifically.
   td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; }
   .team_name_right { text-align: left; font-weight: bold; }
   .team_name_left { text-align: right; font-weight: bold; }
-  /* Label the data */ }
+  .center_text { text-align: center; padding: 30px; font-size: 2vw; } }

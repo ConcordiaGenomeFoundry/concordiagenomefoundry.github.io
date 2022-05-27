@@ -65,7 +65,7 @@ object{
 .center_text {
   text-align: center;
   padding: 30px;
-
+  font-size: 2vw;
 }
 
 table td{
@@ -173,7 +173,9 @@ only screen and (max-width: 760px),
     font-weight: bold;
   }
 
-	/*
-	Label the data
-	*/
+  .center_text {
+    text-align: center;
+    padding: 30px;
+    font-size: 2vw;
+  }
 }

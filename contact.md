@@ -9,37 +9,39 @@ permalink: /contact/
     </div>
 </div>
 <div class="row">
-    <div class="col-4"></div>
-    <div class="col-4">
-    <h3>Contact Information</h3>
-        <h4>Audrey Morin</h4>
-        <h4>Research & Administrative Coordinator</h4>
-        <h4>genomefoundry@concordia.ca</h4>
-        <h4>Phone: (514) 848-2424 ext. 2438</h4>
-        <h4>Fax: (514) 848-4504</h4>
+    <div class="col-2"></div>
+    <div class="col-8">
+    <h3 style="font-size:3vw">Contact Information</h3>
+        <h3 style="font-size:2.5vw">Audrey Morin</h3>
+        <h3 style="font-size:2.5vw">Research & Administrative Coordinator</h3>
+        <h3 style="font-size:2.5vw">genomefoundry@concordia.ca</h3>
+        <h3 style="font-size:2.5vw">Phone: (514) 848-2424 ext. 2438</h3>
+        <h3 style="font-size:2.5vw">Fax: (514) 848-4504</h3>
     </div>
-    <div class="col-4"></div>
+    <div class="col-2"></div>
 </div>
+
 <div class="row">
-    <div class="col-4"></div>
-    <div class="col-4">
-        <h3>Contact Form</h3>
+    <div class="col-2"></div>
+    <div class="col-8" style="padding-top: 5vw">
+        <hr style="height:2px; width:100%; border-width:0; background-color:lightgray;">
+        <h3 style="font-size:3vw; padding-top: 2vw">Contact Form</h3>
         <form id="fs-frm" name="contact_form" accept-charset="utf-8" action="https://formspree.io/f/xzboovrg" method="POST">
           <fieldset id="fs-frm-inputs">
-            <label for="full-name"><h4>Full Name</h4></label>
-            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-            <label for="email-address"><h4>Email Address</h4></label>
-            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-            <label for="email-subject"><h4>Subject</h4></label>
+            <label for="full-name"><h3 style="font-size:2.5vw">Full Name</h3></label>
+            <input type="text" name="name" id="full-name" placeholder="" required="">
+            <label for="email-address"><h3 style="font-size:2.5vw">Email Address</h3></label>
+            <input type="email" name="_replyto" id="email-address" placeholder="" required="">
+            <label for="email-subject"><h3 style="font-size:2.5vw">Subject</h3></label>
             <input type="text" name="subject" id="email-subject" placeholder="" required="">
-            <label for="message"><h4>Message</h4></label>
+            <label for="message"><h3 style="font-size:2.5vw">Message</h3></label>
             <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
           </fieldset>
           <input type="submit" value="Send Message">
         </form>
     </div>
-    <div class="col-4"></div>
+    <div class="col-2"></div>
 </div>
 <style>/* reset */
 #fs-frm input,
