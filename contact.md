@@ -20,7 +20,7 @@ permalink: /contact/
     </div>
     <div class="col-4">
         <h3>Contact Form</h3>
-        <form id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+        <form id="xzboovrg" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzboovrg" method="post">
           <fieldset id="fs-frm-inputs">
             <label for="full-name"><h4>Full Name</h4></label>
             <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
