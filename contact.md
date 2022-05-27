@@ -9,7 +9,7 @@ permalink: /contact/
     </div>
 </div>
 <div class="row">
-    <div class="col-2"></div>
+    <div class="col-4"></div>
     <div class="col-4">
     <h3>Contact Information</h3>
         <h4>Audrey Morin</h4>
@@ -18,9 +18,13 @@ permalink: /contact/
         <h4>Phone: (514) 848-2424 ext. 2438</h4>
         <h4>Fax: (514) 848-4504</h4>
     </div>
+    <div class="col-4"></div>
+</div>
+<div class="row">
+    <div class="col-4"></div>
     <div class="col-4">
         <h3>Contact Form</h3>
-        <form id="xzboovrg" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/xzboovrg" method="post">
+        <form id="fs-frm" name="contact_form" accept-charset="utf-8" action="https://formspree.io/f/xzboovrg" method="POST">
           <fieldset id="fs-frm-inputs">
             <label for="full-name"><h4>Full Name</h4></label>
             <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
@@ -35,7 +39,7 @@ permalink: /contact/
           <input type="submit" value="Send Message">
         </form>
     </div>
-    <div class="col-2"></div>
+    <div class="col-4"></div>
 </div>
 <style>/* reset */
 #fs-frm input,
