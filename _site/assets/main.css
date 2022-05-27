@@ -241,3 +241,16 @@ table td { background-color: transparent; border: transparent; }
 table tr:nth-child(even) { background-color: transparent; border: transparent; }
 
 table { border-collapse: collapse; border-spacing: 0; border: transparent; }
+
+.team_image { border: 4px solid black; cursor: pointer; border-radius: 50%; max-width: 150px; min-width: 50px; width: 100%; height: auto; }
+
+.team_image:hover { border: 2px solid gray; box-shadow: 0 0 6px black; }
+
+.team_name_right { text-align: right; font-weight: bold; }
+
+.team_name_left { text-align: left; font-weight: bold; }
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+/* Then style the iframe to fit in the container div with full height and width */
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }

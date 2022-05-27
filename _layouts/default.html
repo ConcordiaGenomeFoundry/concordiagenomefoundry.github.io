@@ -2,15 +2,15 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <link href="http://fonts.cdnfonts.com/css/gill-sans" rel="stylesheet">
 
-  {%- include head.html -%}
+  {%- include_cached head.html -%}
 
   <body>
 
-    {%- include header.html -%}
+    {%- include_cached header.html -%}
 
     {{ content }}
 
-    {%- include footer.html -%}
+    {%- include_cached footer.html -%}
 
   </body>
 
