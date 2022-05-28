@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<div class="row">
+<div class="row" style="display: flex; align-items: center; justify-content: center">
     <div class="col-6">
         {%- if site.lab-image -%}
             <img src="{{ site.lab-image | relative_url }}" alt="Foundry Lab">
