@@ -19,7 +19,7 @@ permalink: /equipment/
                 <li style="font-size:2.2vw">ALPS 3000 plate sealer</li>
                 <li style="font-size:2.2vw">XPeel plate seal remover</li>
             </ul>
-            </h3>
+            </h3><br>
             <h3 style="font-size:2.5vw">Stand-Alone Equipment
             <ul>
                 <li style="font-size:2.2vw">Accuri C6 flow cytometer with plate auto-sampler</li>
@@ -48,7 +48,7 @@ permalink: /equipment/
                 <li style="font-size:2.2vw">ucleofector HT</li>
                 <li style="font-size:2.2vw">LabElite decapper</li>
             </ul>
-            </h3>
+            </h3><br>
             <h3 style="font-size:2.5vw">Stand-Alone Equipment
             <ul>
                 <li style="font-size:2.2vw">FACS Melody cell sorter</li>

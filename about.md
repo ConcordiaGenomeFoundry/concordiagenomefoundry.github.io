@@ -27,5 +27,5 @@ permalink: /about/
 </div>
 
 <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/pxanF3hZ4wk" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+    <iframe src="https://www.youtube.com/embed/pxanF3hZ4wk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 </div>
