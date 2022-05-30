@@ -244,7 +244,16 @@ only screen and (max-width: 760px),
 		padding-right: 10px;
 		white-space: nowrap;
 	}
+  .title-mantis{
+    font-size:2vw;
+    color: white;
+  }
 
+  .text-mantis{
+    font-size:1.5vw;
+    color: white;
+    vertical-align: bottom;
+  }
   #bottom_image {
     position: relative;
     padding: 5vw;
