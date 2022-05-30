@@ -30,7 +30,7 @@ twitter_username: SynBioCU
 header_pages:
   - about.md
   - services.md
-  - equipment.md
+#  - equipment.md
   - contact.md
 
 
