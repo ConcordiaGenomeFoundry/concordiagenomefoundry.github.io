@@ -234,13 +234,17 @@ a { display: inline-block; }
 
 object { pointer-events: none; }
 
-.center_text { text-align: center; padding: 50px; font-size: 1.3vw; }
+.center_text { text-align: center; padding: 50px; font-size: 1.0vw; }
 
 table td { background-color: transparent; border: transparent; }
 
 table tr:nth-child(even) { background-color: transparent; border: transparent; }
 
 table { border-collapse: collapse; border-spacing: 0; border: transparent; }
+
+.title-mantis { font-size: 1.5vw; color: white; }
+
+.text-mantis { font-size: 1vw; color: white; vertical-align: bottom; }
 
 .team_image { border: 4px solid black; cursor: pointer; border-radius: 50%; max-width: 150px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; }
 

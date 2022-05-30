@@ -65,7 +65,7 @@ object{
 .center_text {
   text-align: center;
   padding: 50px;
-  font-size: 1.3vw;
+  font-size: 1.0vw;
 }
 
 table td{
@@ -82,6 +82,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   border: transparent;
+}
+
+.title-mantis{
+  font-size:1.5vw;
+  color: white;
+}
+
+.text-mantis{
+  font-size:1vw;
+  color: white;
+  vertical-align: bottom;
 }
 
 .team_image{
