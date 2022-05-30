@@ -152,6 +152,23 @@ table {
   padding-top: 5vw;
   text-align: justify-all;
 }
+
+/* Contact page */
+.contact-info-title{
+  font-size:2vw;
+}
+.contact-info-text{
+  font-size:1.5vw;
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
 /*
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
@@ -211,7 +228,7 @@ only screen and (max-width: 760px),
   .center_text {
     text-align: center;
     padding: 30px;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   /* Services page */
@@ -225,4 +242,21 @@ only screen and (max-width: 760px),
     padding-top: 5vw;
     text-align: justify-all;
   }
+
+  /* Contact page */
+  .contact-info-title{
+    font-size:3vw;
+  }
+  .contact-info-text{
+    font-size:3vw;
+  }
+  input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
 }

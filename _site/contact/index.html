@@ -54,29 +54,27 @@
 </div>
 <div class="row">
     <div class="col-6">
-    <h3 style="font-size:2.5vw">Contact Information</h3>
-        <h3 style="font-size:2vw">Audrey Morin</h3>
-        <h3 style="font-size:2vw">Research &amp; Administrative Coordinator</h3>
-        <h3 style="font-size:2vw">genomefoundry@concordia.ca</h3>
-        <h3 style="font-size:2vw">Phone: (514) 848-2424 ext. 2438</h3>
-        <h3 style="font-size:2vw">Fax: (514) 848-4504</h3>
+        <div class="contact-info-title">Contact Information</div>
+        <div class="contact-info-text">genomefoundry@concordia.ca</div>
+        <div class="contact-info-text">Phone: (514) 848-2424 ext. 2438</div>
+        <div class="contact-info-text">Fax: (514) 848-4504</div>
     </div>
     <div class="col-6">
-        <h3 style="font-size:2.5vw;">Contact Form</h3>
-        <form id="fs-frm" name="contact_form" accept-charset="utf-8" action="https://formspree.io/f/mknyyvrr" method="POST">
-          <fieldset id="fs-frm-inputs">
-            <label for="full-name"><h3 style="font-size:2vw">Full Name</h3></label>
-            <input type="text" name="name" id="full-name" placeholder="" required="" />
-            <label for="email-address"><h3 style="font-size:2vw">Email Address</h3></label>
-            <input type="email" name="_replyto" id="email-address" placeholder="" required="" />
-            <label for="email-subject"><h3 style="font-size:2vw">Subject</h3></label>
-            <input type="text" name="subject" id="email-subject" placeholder="" required="" />
-            <label for="message"><h3 style="font-size:2vw">Message</h3></label>
-            <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
-            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
-          </fieldset>
-          <input type="submit" value="Send Message" />
-        </form>
+        <div class="contact-info-title">Contact Form</div>
+        <div id="fs-frm" name="contact_form" accept-charset="utf-8" action="https://formspree.io/f/mknyyvrr" method="POST">
+            <fieldset id="fs-frm-inputs">
+                <label for="full-name"><div class="contact-info-text">Full Name</div></label>
+                <input type="text" name="name" id="full-name" placeholder="" required="" />
+                <label for="email-address"><div class="contact-info-text">Email Address</div></label>
+                <input type="email" name="_replyto" id="email-address" placeholder="" required="" />
+                <label for="email-subject"><div class="contact-info-text">Subject</div></label>
+                <input type="text" name="subject" id="email-subject" placeholder="" required="" />
+                <label for="message"><div class="contact-info-text">Message</div></label>
+                <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" />
+            </fieldset>
+          &lt;input type="submit" value=<div class="contact-info-text">"Send Message"</div>&gt;
+        &lt;/form&gt;
     </div>
 </div>
 <style>/* reset */
@@ -183,7 +181,7 @@
   margin-right: 3%;
 }
 </style>
-
+</div>
 
       </div>
 

@@ -263,6 +263,13 @@ table { border-collapse: collapse; border-spacing: 0; border: transparent; }
 
 .text-services { font-size: 1.8vw; vertical-align: center; padding-top: 5vw; text-align: justify-all; }
 
+/* Contact page */
+.contact-info-title { font-size: 2vw; }
+
+.contact-info-text { font-size: 1.5vw; }
+
+input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical; }
+
 /*
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
@@ -277,7 +284,11 @@ and also iPads specifically.
   td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; }
   .team_name_right { text-align: left; font-weight: bold; }
   .team_name_left { text-align: right; font-weight: bold; }
-  .center_text { text-align: center; padding: 30px; font-size: 2vw; }
+  .center_text { text-align: center; padding: 30px; font-size: 1.5vw; }
   /* Services page */
   .text-image-services { font-size: 2.5vw; vertical-align: center; }
-  .text-services { font-size: 2.5vw; vertical-align: center; padding-top: 5vw; text-align: justify-all; } }
+  .text-services { font-size: 2.5vw; vertical-align: center; padding-top: 5vw; text-align: justify-all; }
+  /* Contact page */
+  .contact-info-title { font-size: 3vw; }
+  .contact-info-text { font-size: 3vw; }
+  input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical; } }
