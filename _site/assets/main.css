@@ -269,9 +269,9 @@ table { border-collapse: collapse; border-spacing: 0; border: transparent; }
 .services-ranomics-img { align-items: center; display: block; margin-left: auto; margin-right: auto; width: 80%; padding: 10px; }
 
 /* Contact page */
-.contact-info-title { font-size: 2vw; padding: 2vw 0vw 2vw 0vw; }
+.contact-info-title { font-size: 2vw; padding: 0vw 0vw 1vw 0vw; color: white; }
 
-.contact-info-text { font-size: 1.5vw; }
+.contact-info-text { font-size: 1.5vw; color: white; }
 
 input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical; }
 
