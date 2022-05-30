@@ -40,6 +40,7 @@ video.background {
   background-size: cover;
   object-fit: cover;
   height: auto;
+  z-index: -100;
 }
 
 #bottom_image {
@@ -53,7 +54,6 @@ video.background {
   height: auto;
   //width: 100%;
 }
-
 
 a{
     display: inline-block;
@@ -110,7 +110,10 @@ table {
 }
 
 .video-container {
-position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0; overflow: hidden;
 }
 
 .video-container iframe, .video-container object, .video-container embed {

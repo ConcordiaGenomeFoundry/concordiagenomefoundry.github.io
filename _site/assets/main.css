@@ -226,7 +226,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .col-12 { width: 100%; }
 
-video.background { background-repeat: no-repeat; background-size: cover; object-fit: cover; height: auto; }
+video.background { background-repeat: no-repeat; background-size: cover; object-fit: cover; height: auto; z-index: -100; }
 
 #bottom_image { position: relative; padding: 25px; background: url("../assets/images/foundry_mantis.png"); background-repeat: no-repeat; background-position: right; background-size: cover; height: auto; }
 
