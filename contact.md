@@ -17,7 +17,7 @@ permalink: /contact/
     </div>
     <div class="col-6">
         <div class="contact-info-title">Contact Form</div>
-        <div id="fs-frm" name="contact_form" accept-charset="utf-8" action="https://formspree.io/f/mknyyvrr" method="POST">
+        <form id="fs-frm" name="contact_form" accept-charset="utf-8" action="https://formspree.io/f/mknyyvrr" method="POST">
             <fieldset id="fs-frm-inputs">
                 <label for="full-name"><div class="contact-info-text">Full Name</div></label>
                 <input type="text" name="name" id="full-name" placeholder="" required="">
@@ -29,7 +29,7 @@ permalink: /contact/
                 <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
                 <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             </fieldset>
-          <input type="submit" value=<div class="contact-info-text">"Send Message"</div>>
+          <input type="submit" value="Send Message">
         </form>
     </div>
 </div>
