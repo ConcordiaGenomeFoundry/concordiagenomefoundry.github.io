@@ -26,7 +26,7 @@ permalink: /about/
     <div class="col-3"></div>
     <div class="col-6">
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/pxanF3hZ4wk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+            <iframe src="https://www.youtube.com/embed/pxanF3hZ4wk?autoplay=1" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
         </div>
     </div>
     <div class="col-3"></div>

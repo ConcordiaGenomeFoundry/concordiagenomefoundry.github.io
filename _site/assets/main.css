@@ -259,9 +259,14 @@ table { border-collapse: collapse; border-spacing: 0; border: transparent; }
 .gradient-background { background-image: linear-gradient(to right top, #01847f, #007c8a, #007293, #006697, #005995, #004e8b, #014381, #043877, #052e67, #042557, #021c48, #011339); }
 
 /* Services page */
-.text-image-services { font-size: 2vw; vertical-align: center; }
+.text-image-services { font-size: 1.5vw; vertical-align: center; color: white; }
 
 .text-services { font-size: 1.8vw; vertical-align: center; padding-top: 5vw; text-align: justify-all; }
+
+/* Equipment page */
+.image-equipment { align-items: flex-start; height: 30%; padding: 0vw 0vw 0vw 0vw; }
+
+.services-ranomics-img { align-items: center; display: block; margin-left: auto; margin-right: auto; width: 80%; padding: 10px; }
 
 /* Contact page */
 .contact-info-title { font-size: 2vw; }
@@ -297,7 +302,7 @@ and also iPads specifically.
   .team_name { text-align: center; font-weight: bold; }
   .center_text { text-align: center; padding: 20px 10px 0px 10px; font-size: 1.5vw; }
   /* Services page */
-  .text-image-services { font-size: 2.5vw; vertical-align: center; }
+  .text-image-services { font-size: 2vw; vertical-align: center; color: white; }
   .text-services { font-size: 2.5vw; vertical-align: center; padding-top: 5vw; text-align: justify-all; }
   /* Contact page */
   .contact-info-title { font-size: 3vw; }
