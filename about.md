@@ -1,31 +1,40 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
 
 <div class="row" style="display: flex; align-items: center; justify-content: center">
-    <div class="col-6">
-        {%- if site.lab-image -%}
-            <img src="{{ site.lab-image | relative_url }}" alt="Foundry Lab">
-        {%- endif -%}
-    </div>
-    <div class="col-6">
-        <h3 style="font-size:2.5vw; vertical-align: center">
-        We use lab automation to provide academics and companies with services to 
-        engineer biology at a scale beyond manual methods.
-        </h3>
-    </div>
+    {%- if site.title-logo-white -%}
+        <img src="{{ site.title-logo-white | relative_url }}" style="width: 25%; alignment: center" alt="Foundry Logo">
+    {%- endif -%}
 </div>
-<div class="center_text">
-    <h1 style="font-size:3vw; padding-top: 3vw; padding-bottom: 3vw"> 
-        Mammalian and microbial engineering<br>
-        Services are priced for cost-recovery<br>
-        Coaching and support for start-ups<br>
-        Keep your IP.<br>
+<div class="about-center-title">
+    <h1>
+        The Concordia Genome Foundry is Canada’s platform for <br>synthetic biology.
+    </h1>
+</div> 
+<div class="about-info-text">
+    <h1>
+    We use lab automation to provide academics and companies with services to engineer biology at a scale beyond manual methods.
     </h1>
 </div>
-
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/pxanF3hZ4wk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<div class="row" style="display: flex; align-items: center; justify-content: center">
+    <img src="/assets/images/bw_about.svg" style="width: 100%; alignment: center" alt="Foundry Lab">
+</div>
+<div class="row" style="display: flex; align-items: center; justify-content: initial">
+    <div class="col-6">
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/pxanF3hZ4wk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+        </div>
+    </div>
+    <div class="col-6" style="background-color:#D00050">
+        <div class="about-info-text">
+            <h1><br>Mammalian and microbial engineering<br><br>
+                Services priced for cost-recovery<br><br>
+                Coaching and support for start-ups<br><br>
+                Keep your IP<br>
+            </h1>
+        </div>
+    </div>
 </div>

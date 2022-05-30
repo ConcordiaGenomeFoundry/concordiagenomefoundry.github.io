@@ -1,24 +1,7 @@
-<div class="center_text">
-    <h1> High-throughput DNA assembly, microbial phenotyping, and cell engineering. All in a single facility. </h1>
-</div>
-
-<div class="row">
-    <div class="col-6">
-        {%- if site.lab-image -%}
-            <img src="{{ site.lab-image | relative_url }}" alt="Foundry Lab">
-        {%- endif -%}
-    </div>
-    <div class="col-6">
-        {%- if site.lab-scheme -%}
-            <object width="100%" height="100%" data="/assets/images/foundry-scheme.svg"></object>
-        {%- endif -%}
-    </div>
-</div>
-
 <div id="bottom_image">
     <div class="row">
         <div class="col-6">
-            <h1 style="font-size:3.5vw; color: white; padding: 1.5vw"> The power of <strong>automation</strong> at the service of <strong>biology</strong> </h1>
+            <h1 style="font-size:3.5vw; color: white;"> The power of <strong>automation</strong> at the service of <strong>biology</strong> </h1>
         </div>
         <div class="col-6">
         </div>
@@ -31,69 +14,98 @@
     </div>
 </div>
 
-<div class="row" style="padding-top: 3vw">
-    <div style="overflow-x:auto;">
-        <div class="center_text" style="padding-bottom: 0vw">
-            <h1><strong>Meet the team</strong></h1>
+<div class="gradient-background">
+    <div class="center_text" style="color: white">
+        <h1> High-throughput DNA assembly, microbial phenotyping, and cell engineering. All in a single facility. </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            {%- if site.lab-image -%}
+                <img src="{{ site.lab-image | relative_url }}" alt="Foundry Lab">
+            {%- endif -%}
         </div>
-        <table style="background-color: #ffffff;">
-            <tr>
-                <td></td>
-                <div class="team">
-                    <td class="team_name_right">
-                        Kevin Jacquet (PhD)<br>
-                        Platform coordinator
-                    </td>
-                    <td style="text-align: left"><img class=team_image src="/assets/images/team/Kevin.png" alt="Avatar"></td>
+        <div class="col-6">
+            {%- if site.lab-scheme -%}
+                <object width="100%" height="100%" data="/assets/images/foundry-scheme.svg"></object>
+            {%- endif -%}
+        </div>
+    </div>
+
+    <div class="row" style="padding-top: 3vw">
+        <div style="overflow-x:auto;">
+            <div class="center_text" style="padding-bottom: 0vw; color: white">
+                <h1><strong>MEET THE TEAM</strong></h1>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img class=team_image src="/assets/images/team/Kevin.png" alt="Avatar">
+                    <div class="team_name">
+                        Kevin Jacquet (PhD) <br>
+                        Platform coordinator <br>
+                    </div>
+
                 </div>
-                <td style="text-align: right"><img class=team_image  src="/assets/images/team/Nicholas.png" alt="Avatar"></td>
-                <td class="team_name_left">
+                <div class="col-6">
+                    <img class=team_image  src="/assets/images/team/Nicholas.png" alt="Avatar"></td>
+                    <div class="team_name">
                         Nicholas Gold (MSc)<br>
-                        Platform coordinator
-                </td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td class="team_name_right">
+                        Platform coordinator<br>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img class=team_image src="/assets/images/team/Angela.png" alt="Avatar">
+                    <div class="team_name">
                         Angela Quach (MSc)<br>
-                        Cell Editing Specialist
-                </td>
-                <td style="text-align: left"><img class=team_image src="/assets/images/team/Angela.png" alt="Avatar"></td>
-                <td style="text-align: right"><img class=team_image src="/assets/images/team/James.png" alt="Avatar"></td>
-                <td class="team_name_left">
+                        Cell Editing Specialist <br>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <img class=team_image  src="/assets/images/team/James.png" alt="Avatar"></td>
+                    <div class="team_name">
                         James Bagley (MSc)<br>
-                        Lab Automation Specialist
-                </td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td class="team_name_right">
-                        Flavia Araujo (PhD)<br>
-                        Computer Scientist
-                </td>
-                <td style="text-align: left"><img class=team_image src="/assets/images/team/Flavia.png" alt="Avatar"></td>
-                <td style="text-align: right"><img class=team_image src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar"></td>
-                <td class="team_name_left">
+                        Lab Automation Specialist<br>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img class=team_image src="/assets/images/team/Audrey.png" alt="Avatar">
+<!--                    <img class=team_image src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar">-->
+                    <div class="team_name">
                         Audrey Morin (MSc)<br>
-                        Research & Administrative Coordinator</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td class="team_name_right">
+                        Research & Administrative Coordinator<br>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <img class=team_image  src="/assets/images/team/Flavia.png" alt="Avatar"></td>
+                    <div class="team_name">
+                        Flavia Araujo (PhD)<br>
+                        Computer Scientist<br>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img class=team_image src="/assets/images/team/Benjamin.png" alt="Avatar">
+                    <div class="team_name">
                         Benjamin Scott (PhD)<br>
-                        Advisor, Business Development
-                </td>
-                <td style="text-align: left"><img class=team_image src="/assets/images/team/Benjamin.png" alt="Avatar"></td>
-                <td style="text-align: right"><img class=team_image src="/assets/images/team/Vincent.png" alt="Avatar"></td>
-                <td class="team_name_left">
+                        Advisor, Business Development<br>
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <img class=team_image  src="/assets/images/team/Vincent.png" alt="Avatar"></td>
+                    <div class="team_name">
                         Vincent Martin (PhD)<br>
-                        Director
-                        </td>
-                <td></td>
-              </tr>
-        </table>
+                        Director<br>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

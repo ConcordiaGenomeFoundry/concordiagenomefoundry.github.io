@@ -89,9 +89,12 @@ table {
   cursor: pointer;
   border-radius: 50%;
   max-width: 150px;
-  min-width: 50px;
+  //min-width: 50px;
   width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team_image:hover{
@@ -99,13 +102,9 @@ table {
   box-shadow: 0 0 6px black;
 }
 
-.team_name_right{
-  text-align: right;
-  font-weight: bold;
-}
-
-.team_name_left{
-  text-align: left;
+.team_name{
+  color: white;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -124,21 +123,10 @@ table {
   height: 100%;
 }
 
-.map-container {
-  position: relative;
-  padding-bottom: 30%;
-  height: 0;
-  overflow: hidden;
+.gradient-background{
+  //background-image: linear-gradient(to bottom left, blue, green);
+  background-image: linear-gradient(to right top, #01847f, #007c8a, #007293, #006697, #005995, #004e8b, #014381, #043877, #052e67, #042557, #021c48, #011339);
 }
-
-.map-container iframe, .video-container object, .video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  max-height: 500px;
-}
-
 /* Services page */
 
 .text-image-services {
@@ -154,6 +142,7 @@ table {
 }
 
 /* Contact page */
+
 .contact-info-title{
   font-size:2vw;
 }
@@ -168,6 +157,36 @@ input[type=text], select, textarea{
   box-sizing: border-box;
   resize: vertical;
 }
+.map-container {
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 500px;
+}
+
+/* About page */
+.about-center-title{
+  text-align: center;
+  font-size:2.2vw;
+  color: white;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw
+}
+.about-info-text{
+  text-align: center;
+  vertical-align: center;
+  font-size:1.2vw;
+  color: white;
+}
+
 
 /*
 Max width before this PARTICULAR table gets nasty
@@ -215,19 +234,26 @@ only screen and (max-width: 760px),
 		white-space: nowrap;
 	}
 
-  .team_name_right{
-    text-align: left;
-    font-weight: bold;
+  #bottom_image {
+    position: relative;
+    padding: 5vw;
+    background: url("../assets/images/foundry_mantis.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    //max-height: 550px;
+    height: auto;
+    //width: 100%;
   }
 
-  .team_name_left{
-    text-align: right;
+  .team_name{
+    text-align: center;
     font-weight: bold;
   }
 
   .center_text {
     text-align: center;
-    padding: 30px;
+    padding: 20px 10px 0px 10px;
     font-size: 1.5vw;
   }
 
@@ -257,6 +283,13 @@ only screen and (max-width: 760px),
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
+  }
+
+  /* About page */
+  .about-info-text{
+    vertical-align: center;
+    font-size:2vw;
+    color: white;
   }
 
 }

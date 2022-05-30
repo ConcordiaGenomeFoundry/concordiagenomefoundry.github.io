@@ -242,21 +242,17 @@ table tr:nth-child(even) { background-color: transparent; border: transparent; }
 
 table { border-collapse: collapse; border-spacing: 0; border: transparent; }
 
-.team_image { border: 4px solid black; cursor: pointer; border-radius: 50%; max-width: 150px; min-width: 50px; width: 100%; height: auto; }
+.team_image { border: 4px solid black; cursor: pointer; border-radius: 50%; max-width: 150px; width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; }
 
 .team_image:hover { border: 2px solid gray; box-shadow: 0 0 6px black; }
 
-.team_name_right { text-align: right; font-weight: bold; }
-
-.team_name_left { text-align: left; font-weight: bold; }
+.team_name { color: white; text-align: center; font-weight: bold; }
 
 .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 
 .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.map-container { position: relative; padding-bottom: 30%; height: 0; overflow: hidden; }
-
-.map-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; max-height: 500px; }
+.gradient-background { background-image: linear-gradient(to right top, #01847f, #007c8a, #007293, #006697, #005995, #004e8b, #014381, #043877, #052e67, #042557, #021c48, #011339); }
 
 /* Services page */
 .text-image-services { font-size: 2vw; vertical-align: center; }
@@ -270,6 +266,15 @@ table { border-collapse: collapse; border-spacing: 0; border: transparent; }
 
 input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical; }
 
+.map-container { position: relative; padding-bottom: 30%; height: 0; overflow: hidden; }
+
+.map-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; max-height: 500px; }
+
+/* About page */
+.about-center-title { text-align: center; font-size: 2.2vw; color: white; padding-top: 1.5vw; padding-bottom: 1.5vw; }
+
+.about-info-text { text-align: center; vertical-align: center; font-size: 1.2vw; color: white; }
+
 /*
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
@@ -282,13 +287,15 @@ and also iPads specifically.
   thead tr { position: absolute; top: -9999px; left: -9999px; }
   td { /* Behave  like a "row" */ border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; }
   td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; }
-  .team_name_right { text-align: left; font-weight: bold; }
-  .team_name_left { text-align: right; font-weight: bold; }
-  .center_text { text-align: center; padding: 30px; font-size: 1.5vw; }
+  #bottom_image { position: relative; padding: 5vw; background: url("../assets/images/foundry_mantis.png"); background-repeat: no-repeat; background-position: right; background-size: cover; height: auto; }
+  .team_name { text-align: center; font-weight: bold; }
+  .center_text { text-align: center; padding: 20px 10px 0px 10px; font-size: 1.5vw; }
   /* Services page */
   .text-image-services { font-size: 2.5vw; vertical-align: center; }
   .text-services { font-size: 2.5vw; vertical-align: center; padding-top: 5vw; text-align: justify-all; }
   /* Contact page */
   .contact-info-title { font-size: 3vw; }
   .contact-info-text { font-size: 3vw; }
-  input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical; } }
+  input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical; }
+  /* About page */
+  .about-info-text { vertical-align: center; font-size: 2vw; color: white; } }
