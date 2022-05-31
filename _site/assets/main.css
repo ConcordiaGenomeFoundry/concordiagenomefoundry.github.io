@@ -236,11 +236,14 @@ object { pointer-events: none; }
 
 .center_text { text-align: center; padding: 50px; font-size: 1.0vw; }
 
-table td { background-color: transparent; border: transparent; }
+table { width: 100%; border-collapse: collapse; }
 
-table tr:nth-child(even) { background-color: transparent; border: transparent; }
+/* Zebra striping */
+tr:nth-of-type(odd) { background: #eee; }
 
-table { border-collapse: collapse; border-spacing: 0; border: transparent; }
+th { background: #333; font-weight: bold; }
+
+td, th { padding: 6px; border: 1px solid #ccc; text-align: left; }
 
 .title-mantis { font-size: 1.5vw; color: white; }
 
@@ -289,13 +292,18 @@ Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
 and also iPads specifically.
 */
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) { .col-6, .col-6, input[type=submit] { width: 100%; margin-top: 0; }
-  /* Force table to not be like tables anymore */
-  table, thead, tbody, th, td, tr { display: block; }
-  /* Hide table headers (but not display: none;, for accessibility) */
-  thead tr { position: absolute; top: -9999px; left: -9999px; }
-  td { /* Behave  like a "row" */ border: none; border-bottom: 1px solid #eee; position: relative; padding-left: 50%; }
-  td:before { /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap; }
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) { .col-6, .col-6, .col-3, input[type=submit] { width: 100%; margin-top: 0; }
+  table { border: 0; }
+  table caption { font-size: 1.3em; }
+  table thead { border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+  table tr { border-bottom: 3px solid #ddd; display: block; margin-bottom: .625em; }
+  table td { border-bottom: 1px solid #ddd; display: block; font-size: .8em; text-align: right; }
+  table td::before { /*
+* aria-label has no advantage, it won't be read inside a table
+content: attr(aria-label);
+*/ content: attr(data-label); float: left; font-weight: bold; text-transform: uppercase; }
+  table td:last-child { border-bottom: 0; }
+  .team_image { border: 4px solid black; cursor: pointer; border-radius: 50%; max-width: 100px; }
   .title-mantis { font-size: 2vw; color: white; }
   .text-mantis { font-size: 1.5vw; color: white; vertical-align: bottom; }
   #bottom_image { position: relative; padding: 5vw; background: url("../assets/images/foundry_mantis.png"); background-repeat: no-repeat; background-position: right; background-size: cover; height: auto; }

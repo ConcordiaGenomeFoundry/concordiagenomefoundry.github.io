@@ -23,11 +23,11 @@ permalink: /about/
     <img src="/assets/images/bw_about.svg" style="width: 100%; alignment: center" alt="Foundry Lab">
 </div>
 <div class="row">
-    <div class="col-3"></div>
-    <div class="col-6">
+    <div class="col-2"></div>
+    <div class="col-8">
         <div class="video-container">
             <iframe src="https://www.youtube.com/embed/pxanF3hZ4wk?autoplay=1" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
         </div>
     </div>
-    <div class="col-3"></div>
+    <div class="col-2"></div>
 </div>
