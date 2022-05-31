@@ -14,6 +14,9 @@ permalink: /contact/
         <div class="contact-info-text">genomefoundry@concordia.ca</div>
         <div class="contact-info-text">Phone: (514) 848-2424 ext. 2438</div>
         <div class="contact-info-text">Fax: (514) 848-4504</div>
+        <div class="image-contact">
+            <img src="/assets/images/building.webp" alt="GE building">
+        </div>
     </div>
     <div class="col-6">
         <div class="contact-info-title">Contact Form</div>
@@ -33,7 +36,7 @@ permalink: /contact/
         </form>
     </div>
 </div>
-<style>/* reset */
+<style>/* Flavia, fix this mess reset */
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
