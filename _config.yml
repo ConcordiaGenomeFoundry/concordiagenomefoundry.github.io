@@ -20,8 +20,7 @@
 
 title: Concordia Genome Foundry
 email: genomefoundry@concordia.ca
-description: >- # this means to ignore newlines until "baseurl:"
-  The Concordia Genome Foundry is Canada’s platform for synthetic biology.
+description: The Concordia Genome Foundry is Canada’s platform for synthetic biology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://concordiagenomefoundry.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SynBioCU
