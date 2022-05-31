@@ -148,11 +148,31 @@ td, th {
   color: white;
 }
 
-.text-services{
-  font-size:1.8vw;
+.text-services-title{
+  font-size:2.0vw;
   vertical-align: center;
-  padding-top: 5vw;
+  text-align: center;
+  padding: 0px;
+}
+
+.text-services{
+  font-size:1.5vw;
+  vertical-align: center;
   text-align: justify-all;
+}
+
+.services-center-title{
+  text-align: center;
+  font-size:1.8vw;
+  color: white;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw
+}
+.services-info-text{
+  text-align: center;
+  vertical-align: center;
+  font-size:1.2vw;
+  color: white;
 }
 
 /* Equipment page */
@@ -239,7 +259,7 @@ only screen and (max-width: 760px),
   }
 
   table caption {
-    font-size: 1.3em;
+    font-size: 13px;
   }
 
   table thead {
@@ -262,8 +282,9 @@ only screen and (max-width: 760px),
   table td {
     border-bottom: 1px solid #ddd;
     display: block;
-    font-size: .8em;
+    font-size: 8px;
     text-align: right;
+    padding: 0px;
   }
 
   table td::before {
@@ -331,8 +352,27 @@ only screen and (max-width: 760px),
   .text-services{
     font-size:2.5vw;
     vertical-align: center;
-    padding-top: 5vw;
     text-align: justify-all;
+  }
+  .text-services-title{
+    font-size:2.0vw;
+    vertical-align: center;
+    text-align: center;
+    padding: 0px;
+  }
+  .services-center-title {
+    text-align: center;
+    font-size:1.6vw;
+    color: white;
+    padding: 0px;
+  }
+
+  .services-info-text{
+    text-align: center;
+    vertical-align: center;
+    font-size:1.4vw;
+    color: white;
+    padding: 0px;
   }
 
   /* Contact page */

@@ -264,7 +264,13 @@ td, th { padding: 6px; border: 1px solid #ccc; text-align: left; }
 /* Services page */
 .text-image-services { font-size: 1.5vw; vertical-align: center; color: white; }
 
-.text-services { font-size: 1.8vw; vertical-align: center; padding-top: 5vw; text-align: justify-all; }
+.text-services-title { font-size: 2.0vw; vertical-align: center; text-align: center; padding: 0px; }
+
+.text-services { font-size: 1.5vw; vertical-align: center; text-align: justify-all; }
+
+.services-center-title { text-align: center; font-size: 1.8vw; color: white; padding-top: 1.5vw; padding-bottom: 1.5vw; }
+
+.services-info-text { text-align: center; vertical-align: center; font-size: 1.2vw; color: white; }
 
 /* Equipment page */
 .image-equipment { align-items: flex-start; height: 30%; padding: 0vw 0vw 0vw 0vw; }
@@ -294,10 +300,10 @@ and also iPads specifically.
 */
 @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) { .col-6, .col-6, .col-3, input[type=submit] { width: 100%; margin-top: 0; }
   table { border: 0; }
-  table caption { font-size: 1.3em; }
+  table caption { font-size: 13px; }
   table thead { border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
   table tr { border-bottom: 3px solid #ddd; display: block; margin-bottom: .625em; }
-  table td { border-bottom: 1px solid #ddd; display: block; font-size: .8em; text-align: right; }
+  table td { border-bottom: 1px solid #ddd; display: block; font-size: 8px; text-align: right; padding: 0px; }
   table td::before { /*
 * aria-label has no advantage, it won't be read inside a table
 content: attr(aria-label);
@@ -311,7 +317,10 @@ content: attr(aria-label);
   .center_text { text-align: center; padding: 20px 10px 0px 10px; font-size: 1.5vw; }
   /* Services page */
   .text-image-services { font-size: 2vw; vertical-align: center; color: white; }
-  .text-services { font-size: 2.5vw; vertical-align: center; padding-top: 5vw; text-align: justify-all; }
+  .text-services { font-size: 2.5vw; vertical-align: center; text-align: justify-all; }
+  .text-services-title { font-size: 2.0vw; vertical-align: center; text-align: center; padding: 0px; }
+  .services-center-title { text-align: center; font-size: 1.6vw; color: white; padding: 0px; }
+  .services-info-text { text-align: center; vertical-align: center; font-size: 1.4vw; color: white; padding: 0px; }
   /* Contact page */
   .contact-info-title { font-size: 3vw; }
   .contact-info-text { font-size: 3vw; }

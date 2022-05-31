@@ -4,6 +4,18 @@ title: Services
 permalink: /services/
 ---
 <div class="gradient-background" style="padding-top: 5vw">
+    <div class="services-center-title">
+    <h1>
+        Build More. Test More.<br>
+        Services to accelerate your science.
+    </h1>
+    </div> 
+    <div class="services-info-text">
+        <h1>
+            <i>Priced for cost-recovery</i><br>
+            <i>Keep your IP</i>
+        </h1>
+    </div>
     <div style="display: flex; align-items: center;">
         <div class="col-1"></div>
         <div class="col-4">
@@ -82,6 +94,9 @@ permalink: /services/
 </div>
 <div class="wrapper">
     <div class="row">
+        <div class="text-services-title">
+            <h2>High Quality Synthetic DNA from a Canadian Supplier</h2>
+        </div>
     <div class="text-services">
         All Genome Foundry users and laboratories belonging to the Concordia University Centre for Applied Synthetic Biology receive significant discounts on gene synthesis, provided by <a href="https://www.ranomics.com/">Ranomics</a>.<br>
         <ul>
@@ -135,7 +150,7 @@ permalink: /services/
                     <td data-label="Price per fragment">$ 289.00 </td></tr>
                 <tr style="text-align: center;">
                     <td data-label="Q-Strand gene fragment">2251 - 2500 bp</td> 	
-                    <td data-label="Amount (ng)">>500 </td> 	
+                    <td data-label="Amount (ng)">500 </td> 	
                     <td data-label="Price per fragment">$ 340.00 </td></tr>
                 <tr style="text-align: center;">
                     <td data-label="Q-Strand gene fragment">2501 - 2750 bp</td> 	
@@ -145,6 +160,10 @@ permalink: /services/
                     <td data-label="Q-Strand gene fragment">2751 - 3000 bp</td> 	
                     <td data-label="Amount (ng)">500 </td> 	
                     <td data-label="Price per fragment">$ 425.00 </td></tr>
+                <tr style="text-align: center;">
+                    <td data-label="Q-Strand gene fragment">3000+ bp</td> 	
+                    <td data-label="Amount (ng)">500 </td> 	
+                    <td data-label="Price per fragment">Please Inquire </td></tr>
             </tbody>
         </table>
     <div class="text-services">
