@@ -9,6 +9,10 @@ $content-width: 100%;
 * {
   box-sizing: border-box;
 }
+.svg-icon {
+  padding: 0px;
+  fill: #bdbbbb;
+}
 
 /* Create two equal columns that floats next to each other */
  .row::after {

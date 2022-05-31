@@ -197,6 +197,8 @@ table td { border: 1px solid #e8e8e8; }
 
 * { box-sizing: border-box; }
 
+.svg-icon { padding: 0px; fill: #bdbbbb; }
+
 /* Create two equal columns that floats next to each other */
 .row::after { content: ""; clear: both; display: table; }
 
