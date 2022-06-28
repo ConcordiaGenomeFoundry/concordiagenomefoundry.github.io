@@ -25,8 +25,13 @@ permalink: /about/
 <div class="row">
     <div class="col-2"></div>
     <div class="col-8">
-        <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/pxanF3hZ4wk?autoplay=1" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+        <div style="alignment: left; font-size:2vw; color: white;" >
+            <h2>
+            Supported by
+            </h2>
+        </div>
+        <div style="align-items: center;">
+            <img src="/assets/images/support_logos.png" style="width: 90%; alignment: center; display: inline-block;" alt="Foundry Lab">
         </div>
     </div>
     <div class="col-2"></div>
