@@ -31,7 +31,7 @@ permalink: /about/
             </h2>
         </div>
         <div style="align-items: center;">
-            <img src="/assets/images/support_logos.png" style="width: 90%; alignment: center; display: inline-block;" alt="Foundry Lab">
+            <img src="/assets/images/NRC_CFI_Concordia.svg" style="width: 90%; alignment: center; display: inline-block;" alt="Foundry Lab">
         </div>
     </div>
     <div class="col-2"></div>
