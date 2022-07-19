@@ -11,7 +11,7 @@ permalink: /opportunities/
 </div>
 <div class="opportunities-center-title">
     <h1>
-        Genome Foundry Research Assistant, Microbial Genome Engineering
+        Position Title: Research Assistant, Microbial Genome Engineering (multiple positions available)
     </h1>
 </div> 
 <div class="opportunities-info-text">
