@@ -297,6 +297,11 @@ input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px sol
 
 .about-info-text { text-align: center; vertical-align: center; font-size: 1.2vw; color: white; }
 
+/*Opportunities page */
+.opportunities-center-title { text-align: center; font-size: 1.8vw; color: white; padding-top: 1.8vw; padding-bottom: 1.5vw; }
+
+.opportunities-info-text { text-align: left; vertical-align: center; font-size: 1.1vw; color: white; word-wrap: break-word; }
+
 /*
 Max width before this PARTICULAR table gets nasty
 This query will take effect for any screen smaller than 760px
@@ -331,4 +336,6 @@ content: attr(aria-label);
   .contact-info-text { font-size: 3vw; }
   input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; resize: vertical; }
   /* About page */
-  .about-info-text { vertical-align: center; font-size: 2vw; color: white; } }
+  .about-info-text { vertical-align: center; font-size: 2vw; color: white; }
+  /* Opportunities page */
+  .opportunities-info-text { vertical-align: center; font-size: 2vw; color: white; word-wrap: break-word; } }

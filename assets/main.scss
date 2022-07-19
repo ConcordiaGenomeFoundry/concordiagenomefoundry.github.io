@@ -250,6 +250,22 @@ input[type=text], select, textarea{
   color: white;
 }
 
+/*Opportunities page */
+.opportunities-center-title{
+  text-align: center;
+  font-size:1.8vw;
+  color: white;
+  padding-top: 1.8vw;
+  padding-bottom: 1.5vw
+}
+.opportunities-info-text{
+  text-align: left;
+  vertical-align: center;
+  font-size:1.1vw;
+  color: white;
+  word-wrap: break-word;
+}
+
 
 /*
 Max width before this PARTICULAR table gets nasty
@@ -410,6 +426,14 @@ only screen and (max-width: 760px),
     vertical-align: center;
     font-size:2vw;
     color: white;
+  }
+
+  /* Opportunities page */
+    .opportunities-info-text{
+    vertical-align: center;
+    font-size:2vw;
+    color: white;
+    word-wrap: break-word;
   }
 
 }
