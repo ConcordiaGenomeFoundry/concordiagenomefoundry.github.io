@@ -25,11 +25,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://concordiagenomefoundry.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SynBioCU
 #github_username:  jekyll
+redirect_to: "https://www.concordia.ca/research/casb/RA-position-microbial-genomefoundry.html"
 
 header_pages:
   - about.md
   - services.md
-#  - equipment.md
+  - opportunities.md
   - contact.md
 
 
