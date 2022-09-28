@@ -31,6 +31,7 @@ header_pages:
   - about.md
   - services.md
   - opportunities.md
+  - gba2022.md
   - contact.md
 
 
@@ -53,6 +54,7 @@ service4: /assets/images/services/4.webp
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
