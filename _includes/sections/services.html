@@ -1,0 +1,43 @@
+<div class="col-lg-9 align-self-start">
+    {% include typography/big_section_heading.html
+    flag = "Services"
+    heading="We work with researchers, startups, and corporations across the globe."
+    subheading = "Protocols can be automated, performed remotely, and results shipped to your door. 
+    All data belongs to you and we don’t take equity or IP. 
+    Priced to keep you cost-competitive and capital efficient. "
+    %}
+</div>
+<div class="accordion accordion-flush" id="accordionFlushAssembly">
+        <div class="row">
+            {% for item in site.data.services %}
+            <div class="col-xxl-3 col-md-6 mb-5" style="height: 440px;">
+                <div class="h-100">
+                    <div class="m-0 p-0 d-grid h-100 rounded-bottom-end shadow"
+                        style="background: url('{{ item.image }}') center center; background-size:cover; min-height:310px">
+                        <div class="p-3 bg-white rounded-accordion rounded-bottom-end border align-self-end">
+                            <div class=" accordion-item">
+                                <div class="accordion-header " id="heading{{item.id}}">
+                                    <button class="accordion-button collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapse{{item.id}}"
+                                        aria-expanded="false" aria-controls="collapse{{item.id}}">
+                                        <h3 id="scrollspy{{item.id}}" class="me-5 fs-4">{{ item.heading }}</h3>
+                                    </button>
+                                </div>
+                                <div id="collapse{{item.id}}" class="accordion-collapse collapse pt-2 "
+                                    aria-labelledby="heading{{item.id}}" data-bs-parent="#accordionFlushAssembly">
+                                    <div class="accordion-body">
+                                        <ul class="list-group list-group-flush">
+                                            {% for element in item.list %}
+                                            <li class="list-group-item">{{ element}}</li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+</div>

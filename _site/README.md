@@ -1,1 +1,1 @@
-# Concordia Genome Foundry Webpage
+# genomefoundry-jekyll

@@ -1,0 +1,31 @@
+<div class="row justify-content-between">
+    <div class="col-lg-9">
+    {% include typography/big_section_heading.html 
+        flag = "About Us" 
+        heading="We offer a consultative approach" 
+        subheading = "With expertise spanning microbial and mammalian cell engineering, and years of practical experience in automation, we’ll work with you to develop optimal approaches to your experiments." 
+        light = true
+    %}
+    </div>
+    <div class="container">
+        <div class="row pt-3">
+            {% for item in site.data.advantages %}
+            <div class="col-xl-3 col-md-6 mb-3">
+                <div class="p-4 d-flex rounded-bottom-end h-100 shadow" style="background-color:#ffffff11;">
+                <div class="me-3">
+                    <div class="icon-circle-primary-dark">
+                        <i class="bi {{ item.icon }} fs-3" style="color:#00d3c9;"></i>
+                    </div>
+                    <!-- <img class="img-fluid" src="assets\images\photos\20150908_District_3_offices.jpg"
+                        alt=""> -->
+                </div>
+                <div class="text-white">
+                <h3 >{{ item.name }}</h3>
+                <p class="text-muted mb-0">{{ item.description }}</p>
+                </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

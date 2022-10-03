@@ -1,0 +1,44 @@
+---
+---
+/* This file serves as the entry point for the website's styling and imports all other Sass files located in _sass
+* You can import as many Sass files from the _sass/ directory as you want
+* By default, all files inside assets/ will be copied to the _site folder during the build process. In addition to that, the Sass files must be compiled to CSS. 
+* The two dashed lines (empty front matter) at the beginning of main.scss signal Jekyll to compile them, rather than simply copying the files
+*
+* To include only parts of bootstrap, follow option B here:
+* https://getbootstrap.com/docs/5.2/customize/sass/
+* Follow this tutorial to add bootstrap to a jekyll website
+* https://blog.robinkloeckner.com/how-to-add-bootstrap-5-sass-to-jekyll */
+
+// Include any default variable overrides of bootstrap here (though functions won't be available)
+$primary: #01847f;
+$border-radius: 0.5rem;
+$border-bottom-end-radius: 4rem;
+// $font-family-sans-serif:"Gill Sans", Helvetica, sans-serif;
+// $font-weight-normal: 500; 
+// $font-weight-base: 300;
+// $display-font-weight: 500;
+// $lead-font-weight: 500;
+// $font-weight-bold: 900;
+$list-group-bg: none;
+$text-muted: #e0eefc;
+$navbar-dark-color: rgba(#fff, 1);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1320px,
+  xxl: 1920px
+);
+
+// All of bootstrap SCSS (_sass/bootstrap/bootstrap.scss)
+@import "bootstrap/bootstrap";
+
+
+
+
+// Additional custom code file (_sass/custom.scss)
+// If custom CSS is needed, add it in _sass/custom.scss
+@import "custom";
+

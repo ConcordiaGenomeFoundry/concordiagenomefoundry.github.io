@@ -18,43 +18,65 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Concordia Genome Foundry
-email: genomefoundry@concordia.ca
-description: The Concordia Genome Foundry is Canada’s platform for synthetic biology.
+title: Genome Foundry
+description: The power of automation at the service of biology
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://concordiagenomefoundry.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: SynBioCU
-#github_username:  jekyll
-redirect_to: "https://www.concordia.ca/research/casb/RA-position-microbial-genomefoundry.html"
 
-header_pages:
-  - about.md
-  - services.md
-  - opportunities.md
-  - gba2022.md
-  - contact.md
+#specify a directory to store all your collections in the same place (_drafts and _posts need to be in this directory too)
+collections_dir: my_collections
 
+#allows grouping related content into folders
+collections:
+  opportunities:
+    #output: true # allows Jekyll to create a rendered page for each document in your collection
+    sort_by: date #date is automatically assigned by Jekyll
+  team:
+    output: true
+    # order:
+    #   - hello-world.md
+    #   - introduction.md
+    #   - basic-concepts.md
+    #   - advanced-concepts.md
 
-# New fields not in the original config file
-copyright: Concordia Genome Foundry
-title-logo: /assets/images/foundry_logo.svg
-title-logo-white: /assets/images/foundry_logo_white.svg
-concordia-logo: /assets/images/Concordia_logo_full.svg
-lab-image: /assets/images/foundry_lab.webp
-lab-scheme: /assets/images/foundry-scheme-font.svg
-mantis-image: /assets/images/foundry_mantis.webp
-header-video: /assets/videos/Header_text.mp4
-service1: /assets/images/services/1.webp
-service2: /assets/images/services/2.webp
-service3: /assets/images/services/3.webp
-service4: /assets/images/services/4.webp
+# configures the default front matter for each type of page
+defaults:
+  - 
+    scope:
+      path: "my_collections/_opportunities"
+    values:
+      title: Job title
+      subtitle: Job subtitle
+      description: 
+      application_link: mailto:GenomeFoundry@concordia.ca
+      classification: Research Assistant under the CARE union at Concordia University
+      salary: $27.37/hr
+      hours: 35
+      duration: 1 year, renewable
+      startDate: as of August 2022
+      supervisor: Dr. Vincent Martin
+      location: |- # this means to ignore newlines until "unit:"
+          7141 Sherbrooke St West, GE building,  
+          Montreal, QC, H4B 1R6
+      unit: |-
+          Centre for Applied Synthetic Biology at  
+          Concordia University
+  # - scope:
+  #     path: ""
+  #     type: "team"
+  #   values:
+  #     layout: "team"
 
-# Build settings
-# theme: minima
+# activate the following plugins
 plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-redirect-from
+  - autoprefixer-rails #needed for bootstrap sass compiling 
+  - jekyll-assets #image management https://github.com/envygeeks/jekyll-assets
+
+#The jekyll-autoprefixer plugin can then be configured under the autoprefixer keyword
+autoprefixer:
+  #configure prefixes to support the last four versions of each browser
+  browsers:
+    - "last 4 versions"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

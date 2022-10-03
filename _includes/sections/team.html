@@ -1,0 +1,13 @@
+{% include typography/flag.html name="Meet the team" light = true %}
+<div class="d-flex pt-3 flex-wrap justify-content-around">
+    {% for item in site.data.team %}
+        {% assign member = item[1] %}
+        {% include cards/team_member.html 
+            name = member.name
+            jobtitle = member.jobtitle
+            image = member.image
+            linkedin = member.linkedin
+            github = member.github
+        %}
+    {% endfor %}
+</div>

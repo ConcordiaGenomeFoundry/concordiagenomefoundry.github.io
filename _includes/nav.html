@@ -1,0 +1,47 @@
+<nav id='navbar' class="navbar navbar-dark navbar-expand-md sticky-top fs-5 fw-normal" style="transition: all 0.25s">
+    <div class="container-lg">
+        <a class="navbar-brand d-grid" href="#">
+            <img id='navLogoDark' src="assets\images\logo\genome_foundry_logo.svg" width="280px" alt="genome foundry logo" style = 'grid-column: 1; grid-row: 1; opacity: 0; transition: all 0.25s;'>
+            <img id='navLogoLight'src="assets\images\logo\genome_foundry_logo_white.svg" width="280px" alt="genome foundry logo" style = 'grid-column: 1; grid-row: 1; transition: all 0.25s;'>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                {% for item in site.data.navigation %}
+                    {% if item[1].new_tab == true %}
+                        {% assign linkTarget = "_blank" %}
+                    {% else %}
+                        {% assign linkTarget = "" %}
+                    {% endif %}
+                    {% if item[1].submenu %}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="{{ item[1].link }}"
+                                role="button" aria-expanded="false">{{ item[1].name }}</a>
+                            <ul class="dropdown-menu">
+                                {% for subitem in item[1].submenu %}
+                                    {% if subitem[1].new_tab == true %}
+                                        {% assign linkTargetSub = "_blank" %}
+                                    {% else %}
+                                        {% assign linkTargetSub = "" %}
+                                    {% endif %}
+                                    <li><a class="dropdown-item" href="{{ subitem[1].link }}" target="{{linkTargetSub}}">{{ subitem[1].name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% else %}
+                        <li class="nav-item">
+                        {% if item[1].button == true %}
+                            <a class="nav-link btn btn-primary shadow ms-2 text-white fw-normal" href="{{ item[1].link }}" target="{{linkTarget}}">{{ item[1].name }}</a>
+                        {% else %}
+                            <a class="nav-link" href="{{ item[1].link }}" target="{{linkTarget}}">{{ item[1].name }}</a>
+                        {% endif %}
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>
