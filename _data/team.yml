@@ -3,11 +3,11 @@ vincentm:
   jobtitle: Director
   image: assets\images\team\Vincent.png
   linkedin: https://www.linkedin.com/in/vincent-martin-233487158
-benjamins:
-  name: Benjamin Scott (PhD)
-  jobtitle: Business and Partnerships Coordinator
-  image: assets\images\team\Benjamin.png
-  linkedin: https://www.linkedin.com/in/benjaminmscott
+audreym:
+  name: Audrey Morin (MSc)
+  jobtitle: Manager, Research Operations
+  image: assets\images\team\Audrey.png
+  linkedin: https://www.linkedin.com/in/audrey-morin-57236489
 nicolasg:
   name: Nicholas Gold (MSc)
   jobtitle: Platform Coordinator - Microbial
@@ -28,11 +28,11 @@ jamesb:
   jobtitle: Lab Automation Specialist
   image: assets\images\team\James.png
   linkedin: https://www.linkedin.com/in/james-bagley-410228aa
-audreym:
-  name: Audrey Morin (MSc)
-  jobtitle: Research & Administrative Coordinator
-  image: assets\images\team\Audrey.png
-  linkedin: https://www.linkedin.com/in/audrey-morin-57236489 
+rahao:
+  name: Raha Omran (PhD)
+  jobtitle: Research Assistance in Microbial Genome Engineering
+  image: assets\images\team\Raha.png
+  linkedin: https://www.linkedin.com/in/rahaomran
 angelaq:
   name: Angela Quach (MSc)
   jobtitle: Cell Editing Specialist
