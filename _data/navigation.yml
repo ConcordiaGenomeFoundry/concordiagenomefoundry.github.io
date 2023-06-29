@@ -21,9 +21,10 @@ gba:
   name: GBA2022
   link: https://sites.events.concordia.ca/sites/gba22/en/global-biofoundries-alliance-meeting-2022-gba2022
   new_tab: true
-# opportunities: 
-#   name: Opportunities
-#   link: "#scrollspyOpportunities"
+opportunities:
+   name: Opportunities
+   link: https://career17.sapsf.com/sfcareer/jobreqcareer?jobId=540&company=universitc
+   new_tab: true
 contact: 
   name: Contact Us
   link: "#scrollspyContact"
