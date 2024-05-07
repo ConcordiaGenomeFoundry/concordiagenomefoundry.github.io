@@ -1,40 +1,45 @@
 vincentm:
   name: Vincent Martin
   jobtitle: Director
-  image: assets\images\team\Vincent.png
+  image: assets\images\team\VincentMartin.png
   linkedin: https://www.linkedin.com/in/vincent-martin-233487158
 audreym:
   name: Audrey Morin
   jobtitle: Manager, Research Operations
-  image: assets\images\team\Audrey.png
+  image: assets\images\team\AudreyMorin.png
   linkedin: https://www.linkedin.com/in/audrey-morin-57236489
 nicolasg:
   name: Nicholas Gold
   jobtitle: Senior Advisor, Business Development and Partnerships Engagement
-  image: assets\images\team\Nicholas.png
+  image: assets\images\team\NicholasGold.png
   linkedin: https://www.linkedin.com/in/nicholas-gold-8a8207254/
-kevinj:
+jingc:
+  name: Jing Cheng
+  jobtitle: Platform Coordinator - Microbial
+  image: assets\images\team\JingCheng.png
+  linkedin: https://www.linkedin.com/in/jing-cheng-6gl/
+  kevinj:
   name: Kevin Jacquet
   jobtitle: Platform Coordinator - Mammalian
-  image: assets\images\team\Kevin.png
+  image: assets\images\team\KevinJaquet.png
   linkedin: https://www.linkedin.com/in/kevin-jacquet-ph-d-0a8a52b6/
+  lalitk:
+  name: Lalit Kumar
+  jobtitle: Supervisor - Microbial Bioprocessing
+  image: assets\images\team\LalitKumar.png
+  linkedin: https://www.linkedin.com/in/lalitkumar2019/
 flaviaa:
   name: Flavia Araujo
   jobtitle: Computer Scientist
-  image: assets\images\team\Flavia.png
+  image: assets\images\team\FlaviaAraujo.png
   linkedin: https://www.linkedin.com/in/flaviarba
 jamesb:
   name: James Bagley
   jobtitle: Lab Automation Specialist
-  image: assets\images\team\James.png
+  image: assets\images\team\JamesBagley.png
   linkedin: https://www.linkedin.com/in/james-bagley-410228aa
-rahao:
-  name: Raha Omran
-  jobtitle: Research Assistance - Microbial
-  image: assets\images\team\Raha.png
-  linkedin: https://www.linkedin.com/in/rahaomran
 angelaq:
   name: Angela Quach
   jobtitle: Cell Editing Specialist
-  image: assets\images\team\Angela.png
+  image: assets\images\team\AngelaQuach.png
   linkedin: https://www.linkedin.com/in/angela-quach-6648a4189
