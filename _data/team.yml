@@ -33,11 +33,13 @@ flaviaa:
   jobtitle: Computer Scientist
   image: assets\images\team\FlaviaAraujo.png
   linkedin: https://www.linkedin.com/in/flaviarba
+  github: https://github.com/frba
 jamesb:
   name: James Bagley
   jobtitle: Lab Automation Specialist
   image: assets\images\team\JamesBagley.png
   linkedin: https://www.linkedin.com/in/james-bagley-410228aa
+  github: https://github.com/JamesBagley
 angelaq:
   name: Angela Quach
   jobtitle: Cell Editing Specialist
