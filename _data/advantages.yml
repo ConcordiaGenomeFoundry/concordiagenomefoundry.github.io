@@ -1,6 +1,6 @@
 - name: Test More
   icon: bi-file-bar-graph
-  description: Experiment at scale of 96,384, and larger. Every day.
+  description: Experiment at scale of 96, 384, and larger. Every day.
 - name: Save time
   icon: bi-fast-forward-circle
   description: More shots on goal gets you results faster.
