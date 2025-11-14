@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
   <title>Home | Genome Foundry</title>
   <link rel="icon" type="image/png" href="./assets/images/logo/favicon.ico">
   <link href="http://fonts.cdnfonts.com/css/gill-sans" rel="stylesheet">
@@ -13,52 +13,46 @@
   <nav id='navbar' class="navbar navbar-dark navbar-expand-md sticky-top fs-5 fw-normal" style="transition: all 0.25s">
     <div class="container-lg">
         <a class="navbar-brand d-grid" href="#">
-            <img id='navLogoDark' src="assets\images\logo\genome_foundry_logo.svg" width="280px" alt="genome foundry logo" style = 'grid-column: 1; grid-row: 1; opacity: 0; transition: all 0.25s;'>
-            <img id='navLogoLight'src="assets\images\logo\genome_foundry_logo_white.svg" width="280px" alt="genome foundry logo" style = 'grid-column: 1; grid-row: 1; transition: all 0.25s;'>
+            <img id='navLogoDark' src="assets/images/logo/genome_foundry_logo.svg" width="280px" alt="genome foundry logo" style='grid-column: 1; grid-row: 1; opacity: 0; transition: all 0.25s;'>
+            <img id='navLogoLight' src="assets/images/logo/genome_foundry_logo_white.svg" width="280px" alt="genome foundry logo" style='grid-column: 1; grid-row: 1; transition: all 0.25s;'>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                 
                     
-                    
                         <li class="nav-item">
-                        
-                            <a class="nav-link" href="#scrollspyAbout" target="">About</a>
-                        
+                            <a id="about" class="nav-link" href="#scrollspyAbout">About</a>
                         </li>
                     
                 
                     
-                    
                         <li class="nav-item">
-                        
-                            <a class="nav-link" href="#scrollspyServices" target="">Services</a>
-                        
+                            <a id="services" class="nav-link" href="#scrollspyServices">Services</a>
                         </li>
                     
                 
                     
-                    
                         <li class="nav-item">
-                        
-                            <a class="nav-link" href="#scrollspyTeam" target="">Team</a>
-                        
+                            <a id="team" class="nav-link" href="#scrollspyTeam">Team</a>
                         </li>
                     
                 
                     
-                    
                         <li class="nav-item">
-                        
-                            <a class="nav-link btn btn-primary shadow ms-2 text-white fw-normal" href="#scrollspyContact" target="">Contact Us</a>
-                        
+                            <a id="contact" class="nav-link" href="#scrollspyContact">Contact Us</a>
                         </li>
                     
                 
+                    
+                
+                <li class="nav-item">
+                    <span class="language-switcher-wrapper">
+                        <a id="languageSwitcher" class="btn btn-secondary btn-sm shadow text-white fw-normal text-uppercase mb-2 mb-md-0 ms-md-2" href="#scrollspyLanguages">EN</a>
+                    </span>
+                </li>
             </ul>
         </div>
     </div>
@@ -66,7 +60,6 @@
   <main>
     <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
     class="scrollspy bg-light" tabindex="0">
-
 
     <!-- HERO SECTION -->
     <header class="" style="margin-top: -125px; min-height: 90vh;">
@@ -84,8 +77,10 @@
         <div class="container-lg text-white  h-100" style="grid-column: 1; grid-row: 1; z-index:2;">
             <div class="row align-items-end h-100">
                 <h1 class="mb-5 pb-5 col-lg-10" style="font-size: calc(2rem + 5vw);">
-                    The power of <span class="text-gradient-animated-light">automation</span> at the
-                    service of <span class="text-gradient-animated-light">biology</span></h1>
+                    <div id=hero_text>
+                        Foundry - The power of <span class="text-gradient-animated-light">automation</span> at the
+                        service of <span class="text-gradient-animated-light">biology</span></h1>
+                    </div>
             </div>
         </div>
     </div>
@@ -97,25 +92,42 @@
     <div class="container-lg">
     
         <div class="row py-5 justify-content-between">
-
     <div class="col-lg-8">
-        <p class="display-3 mb-3" style="font-size: calc(1.5rem + 3vw);">The Genome Foundry is pioneering high-throughput
-            services for engineering life at the next scale.</p>
-        <p class="lead mb-5 fs-1 ">As a cutting edge innovator, what will you build and test at a scale of
-            1,000? 100,000?</p>
+        <!-- Main pitch text for the Genome Foundry -->
+        <p id="pitch_text" class="display-3 mb-3">
+            The Genome Foundry is pioneering high-throughput services for engineering life at the next scale.
+        </p>
+        <!-- Subtext providing additional context for the pitch -->
+        <p id="pitch_subtext" class="lead mb-5 fs-1">
+            As a cutting edge innovator, what will you build and test at a scale of 1,000? 100,000?
+        </p>
     </div>
     <div class="col-lg-4">
-        <iframe width="100%" height="auto" style="min-height:375px; overflow:hidden; z-index:2;" src="https://www.youtube.com/embed/gmqQ8xLix-I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Embedded YouTube video showcasing Genome Foundry services -->
+        <iframe
+            width="100%"
+            height="auto"
+            style="min-height:375px; overflow:hidden; z-index:2;"
+            src="https://www.youtube.com/embed/gmqQ8xLix-I?controls=0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
     </div>
-
 </div>
+
 <div class="row py-5 gx-5 justify-content-between">
     <div class="col-lg-6 mb-3 mb-lg-0">
-        <div class="shadow h-100" style="background: url('assets/images/photos/Genome_Foundry_facilities_069.jpg') center center; 
-        background-size:cover; min-height:310px; z-index:2;">
+        <!-- Image section with a shadow effect, used as a visual representation -->
+        <div
+            class="shadow h-100"
+            style="background: url('assets/images/photos/Genome_Foundry_facilities_069.jpg') center center;
+            background-size:cover; min-height:310px; z-index:2;">
         </div>
     </div>
     <div class="col-lg-6">
+        <!-- Include a reusable typography component for the section heading and subheading -->
         <!-- 
 big section heading
 
@@ -125,10 +137,9 @@ be careful, heading and subheading are sensitive to line breaks -->
 
 
 
-<p class="display-3 mb-3 ">Build more. Test more.</p>
-<p class="lead mb-5 fs-4 fw-normal text-black-50">Our end-to-end solutions unlock the next scale of engineering biology. When time, cost, scalability, and result quality are of utmost importance.</p>
+<p id="pitch2_text" class="display-3 mb-3 ">Build more. Test more.</p>
+<p id="pitch2_subtext" class="lead mb-5 fs-4 fw-normal text-black-50">Our end-to-end solutions unlock the next scale of engineering biology. When time, cost, scalability, and result quality are of utmost importance.</p>
     </div>
-
 </div>
     
     </div>
@@ -164,76 +175,68 @@ must include a name as parameter and a boolean light to indicate color -->
 
 
 <!-- <div class="tint-bg-primary"> -->
-<h2 class="text-primary-light" style="width: fit-content;">About Us</h2>
+<h2 id="about_flag" class="text-primary-light" style="width: fit-content;">About Us</h2>
 <!-- </div> -->
 
-<p class="display-3 mb-3 text-white">We offer a consultative approach</p>
-<p class="lead mb-5 fs-4 fw-normal text-muted">With expertise spanning microbial and mammalian cell engineering, and years of practical experience in automation, we’ll work with you to develop optimal approaches to your experiments.</p>
+<p id="about_heading" class="display-3 mb-3 text-white">We offer a consultative approach</p>
+<p id="about_subheading" class="lead mb-5 fs-4 fw-normal text-muted">With expertise spanning microbial and mammalian cell engineering, and years of practical experience in automation, we’ll work with you to develop optimal approaches to your experiments.</p>
     </div>
     <div class="container">
         <div class="row pt-3">
             
             <div class="col-xl-3 col-md-6 mb-3">
                 <div class="p-4 d-flex rounded-bottom-end h-100 shadow" style="background-color:#ffffff11;">
-                <div class="me-3">
-                    <div class="icon-circle-primary-dark">
-                        <i class="bi bi-file-bar-graph fs-3" style="color:#00d3c9;"></i>
+                    <div class="me-3">
+                        <div class="icon-circle-primary-dark">
+                            <i class=" bi-file-bar-graph fs-3" style="color:#00d3c9;"></i>
+                        </div>
                     </div>
-                    <!-- <img class="img-fluid" src="assets\images\photos\20150908_District_3_offices.jpg"
-                        alt=""> -->
-                </div>
-                <div class="text-white">
-                <h3 >Test More</h3>
-                <p class="text-muted mb-0">Experiment at scale of 96, 384, and larger. Every day.</p>
-                </div>
+                    <div class="text-white">
+                        <h3 id="advantages_1_name"> Test More </h3>
+                        <p id="advantages_1_description" class="text-muted mb-0"> Experiment at scale of 96, 384, and larger. Every day. </p>
+                    </div>
                 </div>
             </div>
             
             <div class="col-xl-3 col-md-6 mb-3">
                 <div class="p-4 d-flex rounded-bottom-end h-100 shadow" style="background-color:#ffffff11;">
-                <div class="me-3">
-                    <div class="icon-circle-primary-dark">
-                        <i class="bi bi-fast-forward-circle fs-3" style="color:#00d3c9;"></i>
+                    <div class="me-3">
+                        <div class="icon-circle-primary-dark">
+                            <i class=" bi-fast-forward-circle fs-3" style="color:#00d3c9;"></i>
+                        </div>
                     </div>
-                    <!-- <img class="img-fluid" src="assets\images\photos\20150908_District_3_offices.jpg"
-                        alt=""> -->
-                </div>
-                <div class="text-white">
-                <h3 >Save time</h3>
-                <p class="text-muted mb-0">More shots on goal gets you results faster.</p>
-                </div>
+                    <div class="text-white">
+                        <h3 id="advantages_2_name"> Save time </h3>
+                        <p id="advantages_2_description" class="text-muted mb-0"> More shots on goal gets you results faster. </p>
+                    </div>
                 </div>
             </div>
             
             <div class="col-xl-3 col-md-6 mb-3">
                 <div class="p-4 d-flex rounded-bottom-end h-100 shadow" style="background-color:#ffffff11;">
-                <div class="me-3">
-                    <div class="icon-circle-primary-dark">
-                        <i class="bi bi-piggy-bank fs-3" style="color:#00d3c9;"></i>
+                    <div class="me-3">
+                        <div class="icon-circle-primary-dark">
+                            <i class=" bi-piggy-bank fs-3" style="color:#00d3c9;"></i>
+                        </div>
                     </div>
-                    <!-- <img class="img-fluid" src="assets\images\photos\20150908_District_3_offices.jpg"
-                        alt=""> -->
-                </div>
-                <div class="text-white">
-                <h3 >Save Money</h3>
-                <p class="text-muted mb-0">Access equipment and experts, without having to find your own.</p>
-                </div>
+                    <div class="text-white">
+                        <h3 id="advantages_3_name"> Save Money </h3>
+                        <p id="advantages_3_description" class="text-muted mb-0"> Access equipment and experts, without having to find your own. </p>
+                    </div>
                 </div>
             </div>
             
             <div class="col-xl-3 col-md-6 mb-3">
                 <div class="p-4 d-flex rounded-bottom-end h-100 shadow" style="background-color:#ffffff11;">
-                <div class="me-3">
-                    <div class="icon-circle-primary-dark">
-                        <i class="bi bi-people fs-3" style="color:#00d3c9;"></i>
+                    <div class="me-3">
+                        <div class="icon-circle-primary-dark">
+                            <i class=" bi-people fs-3" style="color:#00d3c9;"></i>
+                        </div>
                     </div>
-                    <!-- <img class="img-fluid" src="assets\images\photos\20150908_District_3_offices.jpg"
-                        alt=""> -->
-                </div>
-                <div class="text-white">
-                <h3 >Support for commercialization</h3>
-                <p class="text-muted mb-0">1:1 coaching with businesses and biotech experts.</p>
-                </div>
+                    <div class="text-white">
+                        <h3 id="advantages_4_name"> Support for commercialization </h3>
+                        <p id="advantages_4_description" class="text-muted mb-0"> 1:1 coaching with businesses and biotech experts. </p>
+                    </div>
                 </div>
             </div>
             
@@ -260,8 +263,8 @@ must include a name as parameter and a boolean light to indicate color -->
             </div>
             <div class="container marketing">
                 <div class="row gradient-background mb-5 me-md-5">
-                    <div class="col-md-5 m-0 p-0"
-                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                    <div class="col-md-5 m-0 p-0">
+<!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                     </div>
                     <div class="col-md-7 p-5">
                         <h3 id="scrollspyAssembly" class="display-5 mb-5 text-white">High-Throughput DNA Assembly
@@ -274,8 +277,8 @@ must include a name as parameter and a boolean light to indicate color -->
                     </div>
                 </div>
                 <div class="row gradient-background mb-5 ms-md-5">
-                    <div class="col-md-5 m-0 p-0 order-md-2"
-                        style="background: url('assets\images\photos\20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                    <div class="col-md-5 m-0 p-0">
+<!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                     </div>
                     <div class="col-md-7 p-5 order-md-1">
                         <h3 id="scrollspyMicrobial" class="display-5 mb-5 text-white">Microbial Engineering</h3>
@@ -287,8 +290,8 @@ must include a name as parameter and a boolean light to indicate color -->
                     </div>
                 </div>
                 <div class="row gradient-background mb-5 me-md-5">
-                    <div class="col-md-5 m-0 p-0"
-                        style="background: url('assets\images\photos\20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                    <div class="col-md-5 m-0 p-0">
+<!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                     </div>
                     <div class="col-md-7 p-5">
                         <h3 id="scrollspyMammalian" class="display-5 mb-5 text-white">Mammalian Cell Engineering
@@ -301,8 +304,8 @@ must include a name as parameter and a boolean light to indicate color -->
                     </div>
                 </div>
                 <div class="row gradient-background mb-5 ms-md-5">
-                    <div class="col-md-5 m-0 p-0 order-md-2"
-                        style="background: url('assets\images\photos\20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                    <div class="col-md-5 m-0 p-0">
+<!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                     </div>
                     <div class="col-md-7 p-5 order-md-1">
                         <h3 id="scrollspyScreening" class="display-5 mb-5 text-white">High-Throughput Screening</h3>
@@ -332,8 +335,8 @@ must include a name as parameter and a boolean light to indicate color -->
                 <div class="row">
                     <div class="col-lg-6  mb-5">
                         <div class="gradient-background h-100">
-                            <div class="m-0 p-0"
-                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                            <div class="col-md-5 m-0 p-0">
+        <!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                             </div>
                             <div class="p-4">
                                 <h3 id="scrollspyAssembly" class="display-5 mb-5 text-white">High-Throughput DNA
@@ -349,8 +352,8 @@ must include a name as parameter and a boolean light to indicate color -->
                     </div>
                     <div class="col-lg-6 mb-5">
                         <div class="gradient-background h-100">
-                            <div class="m-0 p-0"
-                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                            <div class="m-0 p-0">
+<!--                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                             </div>
                             <div class="p-4">
                                 <h3 id="scrollspyMicrobial" class="display-5 mb-5 text-white">Microbial Engineering
@@ -367,8 +370,8 @@ must include a name as parameter and a boolean light to indicate color -->
                 <div class="row">
                     <div class="col-lg-6 mb-5">
                         <div class="gradient-background h-100">
-                            <div class="m-0 p-0"
-                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                            <div class="m-0 p-0">
+<!--                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                             </div>
                             <div class="p-4">
                                 <h3 id="scrollspyMammalian" class="display-5 mb-5 text-white">Mammalian Cell
@@ -384,8 +387,8 @@ must include a name as parameter and a boolean light to indicate color -->
                     </div>
                     <div class="col-lg-6 mb-5">
                         <div class="gradient-background h-100">
-                            <div class="m-0 p-0"
-                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                            <div class="m-0 p-0">
+<!--                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                             </div>
                             <div class="p-4">
                                 <h3 id="scrollspyScreening" class="display-5 mb-5 text-white">High-Throughput
@@ -425,12 +428,12 @@ must include a name as parameter and a boolean light to indicate color -->
 
 
 <!-- <div class="tint-bg-primary"> -->
-<h2 class="gradient-text" style="width: fit-content;">Services</h2>
+<h2 id="" class="gradient-text" style="width: fit-content;">Services</h2>
 <!-- </div> -->
 
-<p class="display-3 mb-3 ">Build More. Test More.  <br />
+<p id="" class="display-3 mb-3 ">Build More. Test More.  <br />
                         Services to accelerate your science.</p>
-<p class="lead mb-5 fs-4 fw-normal text-black-50">Priced for cost-recovery.  <br />
+<p id="" class="lead mb-5 fs-4 fw-normal text-black-50">Priced for cost-recovery.  <br />
                         Keep your IP.</p>
                 <!-- <h2 class="gradient-background p-2 text-white fw-bold" style="width:fit-content">Services</h2>
                 <p class="display-3 mb-4">Build More. Test More.
@@ -637,11 +640,11 @@ must include a name as parameter and a boolean light to indicate color -->
 
 
 <!-- <div class="tint-bg-primary"> -->
-<h2 class="gradient-text" style="width: fit-content;">Services</h2>
+<h2 id="services_flag" class="gradient-text" style="width: fit-content;">Services</h2>
 <!-- </div> -->
 
-<p class="display-3 mb-3 ">We work with researchers, startups, and corporations across the globe.</p>
-<p class="lead mb-5 fs-4 fw-normal text-black-50">Protocols can be automated, performed remotely, and results shipped to your door. <br />
+<p id="services_heading" class="display-3 mb-3 ">We work with researchers, startups, and corporations across the globe.</p>
+<p id="services_subheading" class="lead mb-5 fs-4 fw-normal text-black-50">Protocols can be automated, performed remotely, and results shipped to your door.<br />
     All data belongs to you and we don’t take equity or IP. <br />
     Priced to keep you cost-competitive and capital efficient. </p>
 </div>
@@ -658,17 +661,19 @@ must include a name as parameter and a boolean light to indicate color -->
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseAssembly"
                                         aria-expanded="false" aria-controls="collapseAssembly">
-                                        <h3 id="scrollspyAssembly" class="me-5 fs-4">High-Throughput DNA Assembly</h3>
+                                        <h3 id="assembly_heading" class="me-5 fs-4"></h3>
                                     </button>
                                 </div>
                                 <div id="collapseAssembly" class="accordion-collapse collapse pt-2 "
                                     aria-labelledby="headingAssembly" data-bs-parent="#accordionFlushAssembly">
                                     <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
+                                        <ul id="assembly_list" class="list-group list-group-flush">
                                             
                                             <li class="list-group-item">>1500 plasmid assemblies/day</li>
                                             
-                                            <li class="list-group-item">Automated DNA fragment analysis, ddPCR, qPCR</li>
+                                            <li class="list-group-item">Automated DNA fragment analysis, qPCR</li>
+                                            
+                                            <li class="list-group-item">Large scale prep of transfection-grade DNA</li>
                                             
                                             <li class="list-group-item">Large scale prep of transfection-grade DNA</li>
                                             
@@ -691,13 +696,13 @@ must include a name as parameter and a boolean light to indicate color -->
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseMicrobial"
                                         aria-expanded="false" aria-controls="collapseMicrobial">
-                                        <h3 id="scrollspyMicrobial" class="me-5 fs-4">Microbial Engineering</h3>
+                                        <h3 id="microbial_heading" class="me-5 fs-4"></h3>
                                     </button>
                                 </div>
                                 <div id="collapseMicrobial" class="accordion-collapse collapse pt-2 "
                                     aria-labelledby="headingMicrobial" data-bs-parent="#accordionFlushAssembly">
                                     <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
+                                        <ul id="microbial_list" class="list-group list-group-flush">
                                             
                                             <li class="list-group-item">>300 transformations & nucleic acid extractions/day</li>
                                             
@@ -724,19 +729,23 @@ must include a name as parameter and a boolean light to indicate color -->
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseMammalian"
                                         aria-expanded="false" aria-controls="collapseMammalian">
-                                        <h3 id="scrollspyMammalian" class="me-5 fs-4">Mammalian Cell Engineering</h3>
+                                        <h3 id="mammalian_heading" class="me-5 fs-4"></h3>
                                     </button>
                                 </div>
                                 <div id="collapseMammalian" class="accordion-collapse collapse pt-2 "
                                     aria-labelledby="headingMammalian" data-bs-parent="#accordionFlushAssembly">
                                     <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
+                                        <ul id="mammalian_list" class="list-group list-group-flush">
+                                            
+                                            <li class="list-group-item">Automation-assisted</li>
+                                            
+                                            <li class="list-group-item">Wowie wow woo wow</li>
                                             
                                             <li class="list-group-item">Generation and expansion of edited iPSC lines</li>
                                             
-                                            <li class="list-group-item">State-of-the-art cell culture, QC for pluripotency</li>
+                                            <li class="list-group-item">State-of-the-art cell culture</li>
                                             
-                                            <li class="list-group-item">Multimode cell imaging</li>
+                                            <li class="list-group-item">High-content imaging to assess confluence</li>
                                             
                                         </ul>
                                     </div>
@@ -757,13 +766,13 @@ must include a name as parameter and a boolean light to indicate color -->
                                     <button class="accordion-button collapsed" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#collapseScreening"
                                         aria-expanded="false" aria-controls="collapseScreening">
-                                        <h3 id="scrollspyScreening" class="me-5 fs-4">High-Throughput Screening</h3>
+                                        <h3 id="screening_heading" class="me-5 fs-4"></h3>
                                     </button>
                                 </div>
                                 <div id="collapseScreening" class="accordion-collapse collapse pt-2 "
                                     aria-labelledby="headingScreening" data-bs-parent="#accordionFlushAssembly">
                                     <div class="accordion-body">
-                                        <ul class="list-group list-group-flush">
+                                        <ul id="screening_list" class="list-group list-group-flush">
                                             
                                             <li class="list-group-item">96 autosampler LC-MS</li>
                                             
@@ -802,7 +811,7 @@ must include a name as parameter and a boolean light to indicate color -->
 
 
 <!-- <div class="tint-bg-primary"> -->
-<h2 class="text-primary-light" style="width: fit-content;">Meet the team</h2>
+<h2 id="team_id" class="text-primary-light" style="width: fit-content;">Meet the team</h2>
 <!-- </div> -->
 <div class="d-flex pt-3 flex-wrap justify-content-around">
     
@@ -833,7 +842,7 @@ possibility to make image size a variable in the future-->
     </div>
     <div class="py-2" style="width:230px">
         <h3 class="text-white pt-3 fs-4">Vincent Martin</h3>
-        <p class="text-muted mb-0">Director</p>
+        <p id="vincentm" class="text-muted mb-0">Director</p>
     </div>
 </div>
     
@@ -864,7 +873,7 @@ possibility to make image size a variable in the future-->
     </div>
     <div class="py-2" style="width:230px">
         <h3 class="text-white pt-3 fs-4">Audrey Morin</h3>
-        <p class="text-muted mb-0">Manager, Research Operations</p>
+        <p id="audreym" class="text-muted mb-0">Manager, Research Operations</p>
     </div>
 </div>
     
@@ -895,7 +904,7 @@ possibility to make image size a variable in the future-->
     </div>
     <div class="py-2" style="width:230px">
         <h3 class="text-white pt-3 fs-4">Nicholas Gold</h3>
-        <p class="text-muted mb-0">Senior Advisor, Business Development and Partnerships Engagement</p>
+        <p id="nicolasg" class="text-muted mb-0">Senior Advisor, Business Development and Partnerships Engagement</p>
     </div>
 </div>
     
@@ -926,7 +935,7 @@ possibility to make image size a variable in the future-->
     </div>
     <div class="py-2" style="width:230px">
         <h3 class="text-white pt-3 fs-4">Jing Cheng</h3>
-        <p class="text-muted mb-0">Platform Coordinator - Microbial</p>
+        <p id="jingc" class="text-muted mb-0">Platform Coordinator - Microbial</p>
     </div>
 </div>
     
@@ -957,7 +966,7 @@ possibility to make image size a variable in the future-->
     </div>
     <div class="py-2" style="width:230px">
         <h3 class="text-white pt-3 fs-4">Kevin Jacquet</h3>
-        <p class="text-muted mb-0">Platform Coordinator - Mammalian</p>
+        <p id="kevinj" class="text-muted mb-0">Platform Coordinator - Mammalian</p>
     </div>
 </div>
     
@@ -988,7 +997,7 @@ possibility to make image size a variable in the future-->
     </div>
     <div class="py-2" style="width:230px">
         <h3 class="text-white pt-3 fs-4">Lalit Kumar</h3>
-        <p class="text-muted mb-0">Supervisor - Microbial Bioprocessing</p>
+        <p id="lalitk" class="text-muted mb-0">Supervisor - Microbial Bioprocessing</p>
     </div>
 </div>
     
@@ -1026,7 +1035,7 @@ possibility to make image size a variable in the future-->
     </div>
     <div class="py-2" style="width:230px">
         <h3 class="text-white pt-3 fs-4">Flavia Araujo</h3>
-        <p class="text-muted mb-0">Computer Scientist</p>
+        <p id="flaviaa" class="text-muted mb-0">Computer Scientist</p>
     </div>
 </div>
     
@@ -1057,7 +1066,7 @@ possibility to make image size a variable in the future-->
     </div>
     <div class="py-2" style="width:230px">
         <h3 class="text-white pt-3 fs-4">Angela Quach</h3>
-        <p class="text-muted mb-0">Cell Editing Specialist</p>
+        <p id="angelaq" class="text-muted mb-0">Cell Editing Specialist</p>
     </div>
 </div>
     
@@ -1088,7 +1097,7 @@ possibility to make image size a variable in the future-->
     </div>
     <div class="py-2" style="width:230px">
         <h3 class="text-white pt-3 fs-4">Mindy Melgar</h3>
-        <p class="text-muted mb-0">Assembly and Process Development Specialist</p>
+        <p id="mindym" class="text-muted mb-0">Assembly and Process Development Specialist</p>
     </div>
 </div>
     
@@ -1099,7 +1108,16 @@ possibility to make image size a variable in the future-->
 </section>
 
     <div class="d-flex flex-wrap justify-content-center align-items-center mb-3">
-    <h2 class="text-white m-5">Supported by</h2>
+    <h2 id="support_id" class="text-white m-5">Supported by</h2>
+    
+        <div class="mx-5 my-3">
+            <a href="https://www.economie.gouv.qc.ca/" >
+                <img height="55px"
+                    src="assets\images\partners\MEIE_white.png"
+                    alt="MEIE logo"
+                    >
+            </a>
+        </div>
     
         <div class="mx-5 my-3">
             <a href="https://www.concordia.ca/" >
@@ -1176,24 +1194,24 @@ Montreal, QC, H4B 1R6</a>
         <div class="row  mb-3">
             <div class="col">
                 <label for="full-name" class="d-none"><div class="contact-info-text">Full Name</div></label>
-                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" required="" name="name" id="full-name">
+                <input id="form_fullname" type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" required="" name="name" id="full-name">
             </div>
             <div class="col">
                 <label for="email-address" class="d-none"><div class="contact-info-text">Email Address</div></label>
-                <input type="email" class="form-control" placeholder="Email" aria-label="Email" required="" name="_replyto" id="email-address">
+                <input id="form_email" type="email" class="form-control" placeholder="Email" aria-label="Email" required="" name="_replyto" id="email-address">
             </div>
         </div>
         <div class="row mb-3">
             <div class="col">
                 <label for="email-subject" class="d-none"><div class="contact-info-text">Subject</div></label>
-                <input type="text" class="form-control" placeholder="Subject"
+                <input id="form_subject" type="text" class="form-control" placeholder="Subject"
                     aria-label="Subject" required="" name="subject" id="email-subject"></input>
             </div>
         </div>
         <div class="row mb-3">
             <div class="col">
                 <label for="message" class="d-none"><div class="contact-info-text">Message</div></label>
-                <textarea type="text" class="form-control" placeholder="Message" aria-label="Message"
+                <textarea id="form_message" type="text" class="form-control" placeholder="Message" aria-label="Message"
                     rows="3" required="" name="message" id="message"></textarea>
             </div>
         </div>
@@ -1201,7 +1219,7 @@ Montreal, QC, H4B 1R6</a>
     </fieldset>
     <div class="row mb-3">
         <div class="col">
-            <button type="submit" class="btn btn-primary mb-3">Send Message</button>
+            <button id="form_button_send" type="submit" class="btn btn-primary mb-3">Send Message</button>
         </div>
     </div>
 </form>
@@ -1232,7 +1250,7 @@ must include a name as parameter and a boolean light to indicate color -->
 
 
 <!-- <div class="tint-bg-primary"> -->
-<h2 class="gradient-text" style="width: fit-content;">Contact Us</h2>
+<h2 id="" class="gradient-text" style="width: fit-content;">Contact Us</h2>
 <!-- </div> -->
     </div>
     <form id="fs-frm" name="contact_form" accept-charset="utf-8" action="https://formspree.io/f/mknyyvrr" method="POST">
@@ -1240,24 +1258,24 @@ must include a name as parameter and a boolean light to indicate color -->
         <div class="row  mb-3">
             <div class="col">
                 <label for="full-name" class="d-none"><div class="contact-info-text">Full Name</div></label>
-                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" required="" name="name" id="full-name">
+                <input id="form_fullname" type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" required="" name="name" id="full-name">
             </div>
             <div class="col">
                 <label for="email-address" class="d-none"><div class="contact-info-text">Email Address</div></label>
-                <input type="email" class="form-control" placeholder="Email" aria-label="Email" required="" name="_replyto" id="email-address">
+                <input id="form_email" type="email" class="form-control" placeholder="Email" aria-label="Email" required="" name="_replyto" id="email-address">
             </div>
         </div>
         <div class="row mb-3">
             <div class="col">
                 <label for="email-subject" class="d-none"><div class="contact-info-text">Subject</div></label>
-                <input type="text" class="form-control" placeholder="Subject"
+                <input id="form_subject" type="text" class="form-control" placeholder="Subject"
                     aria-label="Subject" required="" name="subject" id="email-subject"></input>
             </div>
         </div>
         <div class="row mb-3">
             <div class="col">
                 <label for="message" class="d-none"><div class="contact-info-text">Message</div></label>
-                <textarea type="text" class="form-control" placeholder="Message" aria-label="Message"
+                <textarea id="form_message" type="text" class="form-control" placeholder="Message" aria-label="Message"
                     rows="3" required="" name="message" id="message"></textarea>
             </div>
         </div>
@@ -1265,7 +1283,7 @@ must include a name as parameter and a boolean light to indicate color -->
     </fieldset>
     <div class="row mb-3">
         <div class="col">
-            <button type="submit" class="btn btn-primary mb-3">Send Message</button>
+            <button id="form_button_send" type="submit" class="btn btn-primary mb-3">Send Message</button>
         </div>
     </div>
 </form>
@@ -1275,6 +1293,7 @@ must include a name as parameter and a boolean light to indicate color -->
 </section>
 </div>
 <script src="./assets/js/main.js" ></script>
+<script src="./assets/js/language-switch.js" ></script>
 
   </main>
   <footer class="container-lg py-4 my-4">
@@ -1302,7 +1321,7 @@ Montreal, QC, H4B 1R6</a>
                         alt="concordia university logo">
                 </div>
             </div>
-            <span class="text-black-50">&copy; Concordia Genome Foundry 2022</span>
+            <span id="currentYear" class="text-black-50">&copy; Concordia Genome Foundry <script>document.getElementById('currentYear').innerHTML = `&copy; Concordia Genome Foundry ${new Date().getFullYear()}`;</script></span>
         </div>
 
     </div>

@@ -25,3 +25,6 @@ contact:
   name: Contact Us
   link: "#scrollspyContact"
   button: true
+languageswitcher:
+  name: EN
+  link: "#scrollspyLanguages"

@@ -15,7 +15,7 @@ be careful, heading and subheading are sensitive to line breaks -->
     {% assign flagLight = false %}
 {% endif %}
 {% if include.flag %}
-    {% include typography/flag.html name=include.flag light = flagLight %}
+    {% include typography/flag.html name=include.flag light=flagLight id=include.flag_id%}
 {% endif %}
-<p class="display-3 mb-3 {{ headingColor }}">{{ include.heading | default: "You are missing a heading" | newline_to_br}}</p>
-<p class="lead mb-5 fs-4 fw-normal {{ subheadingColor }}">{{ include.subheading | default: "You are missing a subheading" | newline_to_br }}</p>
+<p id="{{include.heading_id}}" class="display-3 mb-3 {{ headingColor }}">{{ include.heading | default: "You are missing a heading" | newline_to_br}}</p>
+<p id="{{include.subheading_id}}" class="lead mb-5 fs-4 fw-normal {{ subheadingColor }}">{{ include.subheading | default: "You are missing a subheading" | newline_to_br }}</p>

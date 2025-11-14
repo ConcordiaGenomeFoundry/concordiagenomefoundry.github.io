@@ -1,25 +1,32 @@
-- heading: High-Throughput DNA Assembly
+assembly:
+  heading: High-Throughput DNA Assembly
   id: Assembly
   image: assets/images/photos/services/High-throughput_DNA_assembly.jpg
   list:
     - ">1500 plasmid assemblies/day"
-    - Automated DNA fragment analysis, ddPCR, qPCR
+    - Automated DNA fragment analysis, qPCR
     - Large scale prep of transfection-grade DNA
-- heading: Microbial Engineering
+    - Large scale prep of transfection-grade DNA
+microbial:
+  heading: Microbial Strain Engineering
   id: Microbial
   image: assets/images/photos/services/Microbial_engineering.svg
   list:
     - ">300 transformations & nucleic acid extractions/day"
     - Automated colony picking
     - Microlitre to >100L culturing capacity
-- heading: Mammalian Cell Engineering
+mammalian:
+  heading: Mammalian Cell Line Development
   id: Mammalian
   image: assets/images/photos/services/Mammalian_cell_engineering.jpg
   list:
+    - Automation-assisted
+    - "Wowie wow woo wow"
     - Generation and expansion of edited iPSC lines
-    - State-of-the-art cell culture, QC for pluripotency
-    - Multimode cell imaging
-- heading: High-Throughput Screening
+    - State-of-the-art cell culture
+    - High-content imaging to assess confluence
+screening:
+  heading: High-Throughput Screening
   id: Screening
   image: assets/images/photos/services/High-throughput_screening.jpg
   list:

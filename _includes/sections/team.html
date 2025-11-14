@@ -1,4 +1,4 @@
-{% include typography/flag.html name="Meet the team" light = true %}
+{% include typography/flag.html name="Meet the team" light = true id="team_id" %}
 <div class="d-flex pt-3 flex-wrap justify-content-around">
     {% for item in site.data.team %}
         {% assign member = item[1] %}
@@ -8,6 +8,7 @@
             image = member.image
             linkedin = member.linkedin
             github = member.github
+            id = member.id
         %}
     {% endfor %}
 </div>

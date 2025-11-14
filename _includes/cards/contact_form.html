@@ -3,24 +3,24 @@
         <div class="row  mb-3">
             <div class="col">
                 <label for="full-name" class="d-none"><div class="contact-info-text">Full Name</div></label>
-                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" required="" name="name" id="full-name">
+                <input id="form_fullname" type="text" class="form-control" placeholder="Full Name" aria-label="Full Name" required="" name="name" id="full-name">
             </div>
             <div class="col">
                 <label for="email-address" class="d-none"><div class="contact-info-text">Email Address</div></label>
-                <input type="email" class="form-control" placeholder="Email" aria-label="Email" required="" name="_replyto" id="email-address">
+                <input id="form_email" type="email" class="form-control" placeholder="Email" aria-label="Email" required="" name="_replyto" id="email-address">
             </div>
         </div>
         <div class="row mb-3">
             <div class="col">
                 <label for="email-subject" class="d-none"><div class="contact-info-text">Subject</div></label>
-                <input type="text" class="form-control" placeholder="Subject"
+                <input id="form_subject" type="text" class="form-control" placeholder="Subject"
                     aria-label="Subject" required="" name="subject" id="email-subject"></input>
             </div>
         </div>
         <div class="row mb-3">
             <div class="col">
                 <label for="message" class="d-none"><div class="contact-info-text">Message</div></label>
-                <textarea type="text" class="form-control" placeholder="Message" aria-label="Message"
+                <textarea id="form_message" type="text" class="form-control" placeholder="Message" aria-label="Message"
                     rows="3" required="" name="message" id="message"></textarea>
             </div>
         </div>
@@ -28,7 +28,7 @@
     </fieldset>
     <div class="row mb-3">
         <div class="col">
-            <button type="submit" class="btn btn-primary mb-3">Send Message</button>
+            <button id="form_button_send" type="submit" class="btn btn-primary mb-3">Send Message</button>
         </div>
     </div>
 </form>

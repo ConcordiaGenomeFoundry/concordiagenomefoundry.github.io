@@ -5,9 +5,8 @@ title: Home
 <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
     class="scrollspy bg-light" tabindex="0">
 
-
     <!-- HERO SECTION -->
-    {% include sections/hero_alt3.html %}
+    {% include sections/hero.html %}
 
     <div>
     {% capture include_content %}
@@ -20,7 +19,7 @@ title: Home
     <!-- ABOUT SECTION -->
     <!-- Captures the about content -->
     {% capture include_content %}
-        {% include sections/about_alt2.html %}
+        {% include sections/about.html %}
     {% endcapture %}
     <!-- Sends the 'about content' and the 'about scrollspy data' into the default section wrapper -->
     {% include section_wrappers/default.html content = include_content scrollspy = site.data.navigation.about.link %}
@@ -40,8 +39,8 @@ title: Home
             </div>
             <div class="container marketing">
                 <div class="row gradient-background mb-5 me-md-5">
-                    <div class="col-md-5 m-0 p-0"
-                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                    <div class="col-md-5 m-0 p-0">
+<!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                     </div>
                     <div class="col-md-7 p-5">
                         <h3 id="scrollspyAssembly" class="display-5 mb-5 text-white">High-Throughput DNA Assembly
@@ -54,8 +53,8 @@ title: Home
                     </div>
                 </div>
                 <div class="row gradient-background mb-5 ms-md-5">
-                    <div class="col-md-5 m-0 p-0 order-md-2"
-                        style="background: url('assets\images\photos\20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                    <div class="col-md-5 m-0 p-0">
+<!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                     </div>
                     <div class="col-md-7 p-5 order-md-1">
                         <h3 id="scrollspyMicrobial" class="display-5 mb-5 text-white">Microbial Engineering</h3>
@@ -67,8 +66,8 @@ title: Home
                     </div>
                 </div>
                 <div class="row gradient-background mb-5 me-md-5">
-                    <div class="col-md-5 m-0 p-0"
-                        style="background: url('assets\images\photos\20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                    <div class="col-md-5 m-0 p-0">
+<!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                     </div>
                     <div class="col-md-7 p-5">
                         <h3 id="scrollspyMammalian" class="display-5 mb-5 text-white">Mammalian Cell Engineering
@@ -81,8 +80,8 @@ title: Home
                     </div>
                 </div>
                 <div class="row gradient-background mb-5 ms-md-5">
-                    <div class="col-md-5 m-0 p-0 order-md-2"
-                        style="background: url('assets\images\photos\20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                    <div class="col-md-5 m-0 p-0">
+<!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                     </div>
                     <div class="col-md-7 p-5 order-md-1">
                         <h3 id="scrollspyScreening" class="display-5 mb-5 text-white">High-Throughput Screening</h3>
@@ -112,8 +111,8 @@ title: Home
                 <div class="row">
                     <div class="col-lg-6  mb-5">
                         <div class="gradient-background h-100">
-                            <div class="m-0 p-0"
-                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                            <div class="col-md-5 m-0 p-0">
+        <!--                        style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                             </div>
                             <div class="p-4">
                                 <h3 id="scrollspyAssembly" class="display-5 mb-5 text-white">High-Throughput DNA
@@ -129,8 +128,8 @@ title: Home
                     </div>
                     <div class="col-lg-6 mb-5">
                         <div class="gradient-background h-100">
-                            <div class="m-0 p-0"
-                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                            <div class="m-0 p-0">
+<!--                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                             </div>
                             <div class="p-4">
                                 <h3 id="scrollspyMicrobial" class="display-5 mb-5 text-white">Microbial Engineering
@@ -147,8 +146,8 @@ title: Home
                 <div class="row">
                     <div class="col-lg-6 mb-5">
                         <div class="gradient-background h-100">
-                            <div class="m-0 p-0"
-                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                            <div class="m-0 p-0">
+<!--                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                             </div>
                             <div class="p-4">
                                 <h3 id="scrollspyMammalian" class="display-5 mb-5 text-white">Mammalian Cell
@@ -164,8 +163,8 @@ title: Home
                     </div>
                     <div class="col-lg-6 mb-5">
                         <div class="gradient-background h-100">
-                            <div class="m-0 p-0"
-                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">
+                            <div class="m-0 p-0">
+<!--                                style="background: url('assets/images/photos/20150908_District_3_offices.jpg') center center; background-size:cover; min-height:310px">-->
                             </div>
                             <div class="p-4">
                                 <h3 id="scrollspyScreening" class="display-5 mb-5 text-white">High-Throughput
@@ -397,3 +396,4 @@ title: Home
     {% include section_wrappers/default.html content = include_content scrollspy = site.data.navigation.contact.link %}
 </div>
 <script src="./assets/js/main.js" ></script>
+<script src="./assets/js/language-switch.js" ></script>

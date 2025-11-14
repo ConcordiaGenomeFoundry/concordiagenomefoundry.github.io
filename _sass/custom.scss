@@ -5,15 +5,15 @@ body{
 
 .container-lg {
   --bs-gutter-x: 6rem;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
+  padding-right: calc(var(--bs-gutter-x) * 1.5);
+  padding-left: calc(var(--bs-gutter-x) * 1.5);
 }
 
 @media (max-width: 1200px) {
   .container-lg {
     --bs-gutter-x: 1.5rem;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: calc(var(--bs-gutter-x) * 1.5);
+    padding-left: calc(var(--bs-gutter-x) * 1.5);
   }
 }
 
@@ -113,7 +113,9 @@ body{
   border-radius: 50%;
   height: 36px;
   width: 36px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dark-accordion {
@@ -149,4 +151,18 @@ body{
       @include border-bottom-end-radius($border-bottom-end-radius);
     }
   }
+}
+
+.language-switcher-wrapper {
+    position: relative; /* Needed for absolute positioning of the button */
+    display: inline-flex; /* Ensures it behaves like an inline element */
+    align-items: flex-start; /* Aligns the button to the top of its container */
+    height: 100%; /* Ensures wrapper takes full height of nav-item */
+}
+
+#languageSwitcher {
+    font-size: 0.65em; /* Make the text smaller, adjust as needed */
+    padding: 0.1rem 0.4rem; /* Reduce padding to make it look smaller */
+    transform: translateY(-0.4em); /* Adjust vertical position */
+    line-height: 1; /* Ensure tight line height */
 }

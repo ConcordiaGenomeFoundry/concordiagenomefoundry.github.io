@@ -1,45 +1,54 @@
 vincentm:
+  id: vincentm
   name: Vincent Martin
   jobtitle: Director
   image: assets\images\team\VincentMartin.png
   linkedin: https://www.linkedin.com/in/vincent-martin-233487158
 audreym:
+  id: audreym
   name: Audrey Morin
   jobtitle: Manager, Research Operations
   image: assets\images\team\AudreyMorin.png
   linkedin: https://www.linkedin.com/in/audrey-morin-57236489
 nicolasg:
+  id: nicolasg
   name: Nicholas Gold
   jobtitle: Senior Advisor, Business Development and Partnerships Engagement
   image: assets\images\team\NicholasGold.png
   linkedin: https://www.linkedin.com/in/nicholas-gold-8a8207254/
 jingc:
+  id: jingc
   name: Jing Cheng
   jobtitle: Platform Coordinator - Microbial
   image: assets\images\team\JingCheng.png
   linkedin: https://www.linkedin.com/in/jing-cheng-6gl/
 kevinj:
+  id: kevinj
   name: Kevin Jacquet
   jobtitle: Platform Coordinator - Mammalian
   image: assets\images\team\KevinJaquet.png
   linkedin: https://www.linkedin.com/in/kevin-jacquet-ph-d-0a8a52b6/
 lalitk:
+  id: lalitk
   name: Lalit Kumar
   jobtitle: Supervisor - Microbial Bioprocessing
   image: assets\images\team\LalitKumar.png
   linkedin: https://www.linkedin.com/in/lalitkumar2019/
 flaviaa:
+  id: flaviaa
   name: Flavia Araujo
   jobtitle: Computer Scientist
   image: assets\images\team\FlaviaAraujo.png
   linkedin: https://www.linkedin.com/in/flaviarba
   github: https://github.com/frba
 angelaq:
+  id: angelaq
   name: Angela Quach
   jobtitle: Cell Editing Specialist
   image: assets\images\team\AngelaQuach.png
   linkedin: https://www.linkedin.com/in/angela-quach-6648a4189
 mindym:
+  id: mindym
   name: Mindy Melgar
   jobtitle: Assembly and Process Development Specialist
   image: assets\images\team\MindyMelgar.png
