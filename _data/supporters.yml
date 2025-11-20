@@ -1,6 +1,6 @@
-- name: MEIE
-  logo: assets\images\partners\MEIE-white.png
-  logo_height: 70
+- name: QUEBEC
+  logo: assets\images\partners\QUEBEC_imprime_blanc.png
+  logo_height: 100
   link: https://www.economie.gouv.qc.ca/
 - name: Concordia University
   logo: assets\images\partners\Concordia-logo-white.png
