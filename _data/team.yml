@@ -1,9 +1,15 @@
-vincentm:
-  id: vincentm
-  name: Vincent Martin
+davidk:
+  id: davidk
+  name: David Kwan
   jobtitle: Director
-  image: assets\images\team\VincentMartin.png
-  linkedin: https://www.linkedin.com/in/vincent-martin-233487158
+  image: assets\images\team\DavidKwan.png
+  linkedin: https://www.linkedin.com/in/davidhkwan/
+steves:
+      id: steves
+      name: Steve Shih
+      jobtitle: Director
+      image: assets\images\team\SteveShih.png
+      linkedin: https://www.linkedin.com/in/steve-shih-14b27159/
 audreym:
   id: audreym
   name: Audrey Morin
