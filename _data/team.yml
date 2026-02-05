@@ -5,11 +5,11 @@ davidk:
   image: assets\images\team\DavidKwan.png
   linkedin: https://www.linkedin.com/in/davidhkwan/
 steves:
-      id: steves
-      name: Steve Shih
-      jobtitle: Director
-      image: assets\images\team\SteveShih.png
-      linkedin: https://www.linkedin.com/in/steve-shih-14b27159/
+  id: steves
+  name: Steve Shih
+  jobtitle: Director
+  image: assets\images\team\SteveShih.png
+  linkedin: https://www.linkedin.com/in/steve-shih-14b27159/
 audreym:
   id: audreym
   name: Audrey Morin
@@ -28,12 +28,6 @@ jingc:
   jobtitle: Platform Coordinator - Microbial
   image: assets\images\team\JingCheng.png
   linkedin: https://www.linkedin.com/in/jing-cheng-6gl/
-kevinj:
-  id: kevinj
-  name: Kevin Jacquet
-  jobtitle: Platform Coordinator - Mammalian
-  image: assets\images\team\KevinJaquet.png
-  linkedin: https://www.linkedin.com/in/kevin-jacquet-ph-d-0a8a52b6/
 lalitk:
   id: lalitk
   name: Lalit Kumar
