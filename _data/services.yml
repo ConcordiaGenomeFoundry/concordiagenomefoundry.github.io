@@ -6,7 +6,6 @@ assembly:
     - ">1500 plasmid assemblies/day"
     - Automated DNA fragment analysis, qPCR
     - Large scale prep of transfection-grade DNA
-    - Large scale prep of transfection-grade DNA
 microbial:
   heading: Microbial Strain Engineering
   id: Microbial
@@ -16,15 +15,13 @@ microbial:
     - Automated colony picking
     - Microlitre to >100L culturing capacity
 mammalian:
-  heading: Mammalian Cell Line Development
+  heading: Mammalian Cell Engineering
   id: Mammalian
   image: assets/images/photos/services/Mammalian_cell_engineering.jpg
   list:
-    - Automation-assisted
-    - "Wowie wow woo wow"
     - Generation and expansion of edited iPSC lines
-    - State-of-the-art cell culture
-    - High-content imaging to assess confluence
+    - State-of-the-art cell culture, QC for pluripotency
+    - Multimode cell imaging
 screening:
   heading: High-Throughput Screening
   id: Screening
