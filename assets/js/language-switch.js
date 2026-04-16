@@ -72,7 +72,7 @@ const content = {
         lalitk: "Supervisor - Microbial Bioprocessing",
         flaviaa: "Computer Scientist",
         angelaq: "Cell Editing Specialist",
-        mindym: "Assembly and Process Development Specialist",
+        mindym: "Platform Lead",
         support_id: "Support by",
 
         // Contact section
@@ -152,7 +152,7 @@ const content = {
         lalitk: "Superviseur de l'installation de biotraitement",
         flaviaa: "Informaticienne",
         angelaq: "Spécialiste de l'édition cellulaire",
-        mindym: "Spécialiste de l'assemblage et du développement des processus",
+        mindym: "Responsable de la plateforme",
         support_id: "Soutenu par",
 
         // Contact section
