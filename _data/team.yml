@@ -22,34 +22,34 @@ nicolasg:
   jobtitle: Senior Advisor, Business Development and Partnerships Engagement
   image: assets\images\team\NicholasGold.png
   linkedin: https://www.linkedin.com/in/nicholas-gold-8a8207254/
-jingc:
-  id: jingc
-  name: Jing Cheng
-  jobtitle: Platform Coordinator - Microbial
-  image: assets\images\team\JingCheng.png
-  linkedin: https://www.linkedin.com/in/jing-cheng-6gl/
-lalitk:
-  id: lalitk
-  name: Lalit Kumar
-  jobtitle: Supervisor - Microbial Bioprocessing
-  image: assets\images\team\LalitKumar.png
-  linkedin: https://www.linkedin.com/in/lalitkumar2019/
-flaviaa:
-  id: flaviaa
-  name: Flavia Araujo
-  jobtitle: Computer Scientist
-  image: assets\images\team\FlaviaAraujo.png
-  linkedin: https://www.linkedin.com/in/flaviarba
-  github: https://github.com/frba
-angelaq:
-  id: angelaq
-  name: Angela Quach
-  jobtitle: Cell Editing Specialist
-  image: assets\images\team\AngelaQuach.png
-  linkedin: https://www.linkedin.com/in/angela-quach-6648a4189
 mindym:
   id: mindym
   name: Mindy Melgar
   jobtitle: Platform Lead
   image: assets\images\team\MindyMelgar.png
   linkedin: https://www.linkedin.com/in/mindy-melgar-76b7b689/
+lalitk:
+  id: lalitk
+  name: Lalit Kumar
+  jobtitle: Supervisor - Microbial Bioprocessing
+  image: assets\images\team\LalitKumar.png
+  linkedin: https://www.linkedin.com/in/lalitkumar2019/
+rahao:
+  id: rahao
+  name: Raha Omran
+  jobtitle: Supervisor - Bioprocessing Facility
+  image: assets\images\team\raha-omran.png
+  linkedin: https://www.linkedin.com/in/rahaomran/
+angelaq:
+  id: angelaq
+  name: Angela Quach
+  jobtitle: Cell Editing Specialist
+  image: assets\images\team\AngelaQuach.png
+  linkedin: https://www.linkedin.com/in/angela-quach-6648a4189
+flaviaa:
+  id: flaviaa
+  name: Flavia Araujo
+  jobtitle: Computer Scientist
+  image: assets\images\team\FlaviaAraujo2.png
+  linkedin: https://www.linkedin.com/in/flaviarba
+  github: https://github.com/frba

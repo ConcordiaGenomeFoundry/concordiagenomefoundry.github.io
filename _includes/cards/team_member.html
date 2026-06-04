@@ -5,8 +5,8 @@ a card layout to show a team member
 must include name, jobtitle, image, linkedin (optional), github (optional)
 possibility to make image size a variable in the future-->
 <div class="m-4 p-4 shadow rounded-bottom-end" style="background-color: #ffffff11; height:405px">
-    <div class="position-relative" style="width:230px;">
-        <img src="{{include.image}}" height="230px" alt="photo of {{include.name}}"
+    <div class="position-relative" style="width:200px;">
+        <img src="{{include.image}}" height="200px" alt="photo of {{include.name}}"
             style="grid-column: 1; grid-row: 1; z-index: 1;" class="shadow rounded-circle">
         {% if include.linkedin != nil or include.github != nil %}
         <div class="position-absolute bottom-0 end-0" style="z-index: 2;">
@@ -29,7 +29,7 @@ possibility to make image size a variable in the future-->
         </div>
         {% endif %}
     </div>
-    <div class="py-2" style="width:230px">
+    <div class="py-2" style="width:200px">
         <h3 class="text-white pt-3 fs-4">{{ include.name }}</h3>
         <p id="{{ include.id }}" class="text-muted mb-0">{{ include.jobtitle }}</p>
     </div>

@@ -1,0 +1,6 @@
+vendor/
+.vscode/
+.bundle/
+.gem/
+.DS_Store
+Gemfile.lock
